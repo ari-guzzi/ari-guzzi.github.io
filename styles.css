@@ -1,10 +1,15 @@
-body { 
-    margin: 0;
-    background: #F1E3E4;
-    text-align: center;
-    color: #A288A6;
+head { 
+  margin: 0; 
+  background: #F1E3E4;
+  text-align: center;
+  color: #1C1D21
 }
-
+body { 
+    margin: 0; 
+    background: #F1E3E4;
+    text-align: left;
+    color: #1C1D21
+}
 /* Add a background color to the top navigation */
 .topnav {
     background-color: #CCBCBC;
@@ -34,7 +39,6 @@ body {
     ;
   }
   footer {
-  
     text-align: left;
     padding: 3px;
     background-color: #A288A6;
