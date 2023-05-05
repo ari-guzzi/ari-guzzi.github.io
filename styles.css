@@ -2,6 +2,7 @@ body {
     margin: 0;
     background: #F1E3E4;
     text-align: center;
+    color: #A288A6;
 }
 
 /* Add a background color to the top navigation */
@@ -33,7 +34,7 @@ body {
     ;
   }
   footer {
-    text-align: center;
+    text-align: left;
     padding: 3px;
     background-color: #A288A6;
     color: white;
