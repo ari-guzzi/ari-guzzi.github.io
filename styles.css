@@ -32,9 +32,9 @@ body {
     color: #F1E3E4;
     ;
   }
-footer {
-  background-color: #A288A6;
-  box-sizing: border-box;
+
+  /*background-color: #A288A6;*/
+  *{box-sizing: border-box;}
 
   .allcolumns{
     float: left;
@@ -50,4 +50,3 @@ footer {
     display: table;
     clear: both
   }
-}
