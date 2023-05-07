@@ -1,4 +1,4 @@
-head { 
+h1 { 
   margin: 0; 
   background: #F1E3E4;
   text-align: center;
@@ -44,3 +44,4 @@ body {
     background-color: #A288A6;
     color: white;
   }
+  h2 { text-align: center; }
