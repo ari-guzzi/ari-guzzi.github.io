@@ -1,41 +1,39 @@
-head { 
+
+body { 
   margin: 0; 
   background: #F1E3E4;
-  text-align: center;
   color: #1C1D21
-}
-body { 
-    margin: 0; 
-    background: #F1E3E4;
-    text-align: left;
-    color: #1C1D21
 }
 /* Add a background color to the top navigation */
 .topnav {
-    background-color: #CCBCBC;
-    overflow: hidden;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: center;
-    color: #1C1D21;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #BB9BB0;
-    color: #F1E3E4;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #A288A6;
-    color: #F1E3E4;
-    ;
-  }
+  background-color: #CCBCBC;
+  overflow: hidden;
+}
 
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: center;
+  color: #A288A6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #BB9BB0;
+  color: #F1E3E4;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #A288A6;
+  color: #F1E3E4;
+  ;
+}
+
+footer {
+display: block;
+background-color: #A288A6;
+}
