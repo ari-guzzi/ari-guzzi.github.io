@@ -8,12 +8,6 @@
     h2 {
       text-align: left;
     }
-    h3 {
-      font-size: 48px;
-    }
-    h4 {
-      text-align: right;
-    }
 
     </style>
 <head>
@@ -31,21 +25,50 @@
     <a href="/MyWork.html">My Work</a>
     <a href="/AboutMe.html">About Me</a></h2>
   </div>
+  <div class="row">
+    <div class="column"></div>
+    <div class="column"></div>
+  </div>
 
-  <footer>
-    <p style="text-align:left;">
-      <a href="mailto:acguzzi@comcast.net">acguzzi@comcast.net</a></p>
+  /* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 60px;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: all;
+}
+</style>
+</head>
+<body>
+<footer>
+<div class="row">
+  <div class="column">
+    <p><a href="mailto:acguzzi@comcast.net">acguzzi@comcast.net</a></p>
     <br>
-    <a href=“tel:303-775-3168”>303-775-3168</a>
+    <p><a href=“tel:303-775-3168”>303-775-3168</a></p>
     <br>
-      <span style="float:center;">
-        <h3>AG</h3>
-      </span>
-      <span style="float:center;">
-        <h4><a href=“https://www.linkedin.com/in/arianna-guzzi/”>linkedin</a>
+    
+  </div>
+  <div class="column" style="font-size: 36px;">
+    <h3>AG</h3>
+  </div>
+  <div class="column">
+
+    <p><a href=“https://www.linkedin.com/in/arianna-guzzi/”>linkedin</a></p>
           <br>
-        <a href=“https://www.instagram.com/ari.cgz/”>Instagram</a></h4>
-      </span>
-  </p>
-
-  </footer>
+          
+        <p> <a href=“https://www.instagram.com/ari.cgz/”>Instagram</a></p>
+        <br>
+        
+  </div>
+</div>
+</footer>
+</body>
+</html>
