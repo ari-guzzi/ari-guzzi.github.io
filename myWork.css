@@ -36,4 +36,7 @@ body {
 footer {
 display: block;
 background-color: #A288A6;
+position: fixed;
+  left: 0;
+  bottom: 0;
 }
