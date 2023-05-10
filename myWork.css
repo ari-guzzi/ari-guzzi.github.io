@@ -36,6 +36,7 @@ body {
   
   .gallery{
     place-items: center;
+    margin-left: -150px;
     --gap:100px;
     --num-cols: 2;
     --row-height: 300px;
@@ -75,6 +76,8 @@ box-shadow: 10px 10px 5px #000000;
 
 @media screen and (max-width:1024px){
   .gallery{
+    place-items: center;
+    margin-left: -150px;
       --num-cols: 1;
       --row-height: 300px;
   }}
