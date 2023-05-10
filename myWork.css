@@ -32,24 +32,39 @@ body {
   color: #F1E3E4;
   ;
 }
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-  float: CENTER;
-  width: 25%;
-  padding: 5px;
+.gallery {
+  width: 60%;
+  margin: auto;
+  display: block;
+  margin-bottom: 50px;
+  --g: 100px;  /* control the gap */
+  
+  display: grid;
+  gap: var(--g);
+  aspect-ratio: 1;
+  grid-template-columns: repeat(2,auto);
 }
 
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+.gallery > img {
+  width: 0;
+  height: 0;
+  min-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  cursor: pointer;
 }
+
+.gallery img:hover{
+  box-shadow: 10px 10px 5px #000000;
+  -moz-box-shadow: 0px 10px 5px #000000;
+-webkit-box-shadow: 0px 10px 5px #000000; 
+}
+
 
 footer {
 display: block;
 background-color: #A288A6;
 position: relative;
-  left: 0;
-  bottom: 0;
+left: 0;
+bottom: 0;
 }
