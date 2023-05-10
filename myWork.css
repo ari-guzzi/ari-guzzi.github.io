@@ -32,6 +32,19 @@ body {
   color: #F1E3E4;
   ;
 }
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: CENTER;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 footer {
 display: block;
