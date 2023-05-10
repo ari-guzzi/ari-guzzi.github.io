@@ -36,7 +36,7 @@ body {
   
   .gallery{
     place-items: center;
-    margin-left: -150px;
+    margin-left: 0px;
     --gap:100px;
     --num-cols: 2;
     --row-height: 300px;
