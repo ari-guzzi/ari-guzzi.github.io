@@ -1,37 +1,57 @@
+    /* Add a background color to the top navigation */
+    .topnav {
+      text-align: center;
+      background-color: #CCBCBC;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+    }
+      
+      /* Style the links inside the navigation bar */
+      .topnav a {
+        float: center;
+        color: #A288A6;
+        text-align: center;
+        padding: .3em 1em;
+        text-decoration: none;
+        font-size: 1.7em;
+      }
+      
+      /* Change the color of links on hover */
+      .topnav a:hover {
+        background-color: #BB9BB0;
+        color: #F1E3E4;
+      }
+      
+      /* Add a color to the active/current link */
+      .topnav a.active {
+        background-color: #A288A6;
+        color: #F1E3E4;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 48px;
+        color: #A288A6;
+        padding-top: 3rem;
+  
+      }
+  
+      h2 {
+        text-align: center;
+      }
+      h3 {
+        color: #F1E3E4;
+        font-size: 4.8em;
+      }
+  
 
 body { 
     margin: 0; 
     background: #F1E3E4;
     color: #1C1D21
 }
-/* Add a background color to the top navigation */
-.topnav {
-    background-color: #CCBCBC;
-    overflow: hidden;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: center;
-    color: #A288A6;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #BB9BB0;
-    color: #F1E3E4;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #A288A6;
-    color: #F1E3E4;
-    ;
-  }
+
   .center {
     display: block;
     margin-left: auto;
@@ -43,9 +63,9 @@ body {
     min-height: 100vh;
   }
   .img-grid{
-    --gap:16px;
+    --gap:1.6rem;
     --num-cols: 4;
-    --row-height: 300px;
+    --row-height: 30rem;
     box-sizing: border-box;
     padding: var(--gap);
 
@@ -67,22 +87,55 @@ body {
   .img-grid-row-2{
     grid-row: span 2;
   }
-  @media screen and (max-width:1024px){
+  @media screen and (max-width:10.24rem){
     .image-grid{
         --num-cols: 1;
-        --row-height: 200px;
+        --row-height: 20rem;
     }
     
   }
-  #content-wrap {
-    padding-bottom: 2.5rem;    /* Footer height */
+  footer {
+    background-color: #A288A6;
+    display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem;
   }
   
-  footer {
-    margin-top: auto;
-  display: block;
-  background-color: #A288A6;
-  position: relative;
-  bottom: 0;
+  .contact-info, .links {
+    font-size: 1.3em;
+      text-align: center;
+      margin: 0 20rem;
+      flex-basis: 100%; /* Takes full width on smaller screens */
+  
+  }
+  
+  .centered-logo {
+      text-align: center;
+      flex: 1;
+      flex-basis: 100%; /* Takes full width on smaller screens */
+  
+  }
+  
+  footer a {
+      text-decoration: none;
+      color: #F1E3E4;
+      margin: 0 1rem;
+  }
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .contact-info, .links {
+        flex: 1;
+        margin: 1rem 0;
+    }
+  
+    .centered-logo {
+        flex: 2;
+        order: 1;
+    }
+  
+    .links {
+        order: 3;
+    }
   }
   
