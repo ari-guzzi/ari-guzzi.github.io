@@ -22,28 +22,9 @@ h6{
   font-size: 1.5em;
   color: #F1E3E4;
   font-style: italic;
-}
-ul {
-  list-style-type: circle;
-  color: #F1E3E4;
-  padding-left: 35em;
-}
-
-li {
-  padding-left: 1em; /* Adjust as needed */
-}
-.container {
-  width: 100%; /* Adjust as needed */
+  max-width: 15rem;
   margin: 0 auto;
-}
-@media screen and (max-width: 768px) {
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 150vh;
-    margin: -20rem;
-    }
+  padding-bottom: 2rem; /* Adjust as needed */
 }
 
 button{
