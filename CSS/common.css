@@ -107,7 +107,7 @@
       @media (max-width: 768px) {
         .contact-info, .links {
             flex: 1;
-            margin: 1rem 0 0 0; /* Adjust the margins for smaller screens */
+            margin: .5rem 0 0 0; /* Adjust the margins for smaller screens */
           }
       
         .centered-logo {

@@ -35,7 +35,7 @@
   .img-grid-row-2{
     grid-row: span 2;
   }
-  @media screen and (max-width:10.24rem){
+  @media screen and (max-width:768px){
     .image-grid{
         --num-cols: 1;
         --row-height: 20rem;
