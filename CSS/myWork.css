@@ -105,7 +105,7 @@ box-shadow: 1rem 1rem .5rem #000000;
   .contact-info, .links {
     font-size: 1.3em;
       text-align: center;
-      margin: 0 20rem;
+      margin: 0 10rem 0 0; /* Adjust the right margin (10rem here) to control the spacing */
       flex-basis: 100%; /* Takes full width on smaller screens */
   
   }
@@ -117,7 +117,7 @@ box-shadow: 1rem 1rem .5rem #000000;
   
   }
   
-  a {
+  footer a {
       text-decoration: none;
       color: #F1E3E4;
       margin: 0 1rem;
@@ -126,8 +126,8 @@ box-shadow: 1rem 1rem .5rem #000000;
   @media (max-width: 768px) {
     .contact-info, .links {
         flex: 1;
-        margin: 1rem 0;
-    }
+        margin: 1rem 0 0 0; /* Adjust the margins for smaller screens */
+      }
   
     .centered-logo {
         flex: 2;

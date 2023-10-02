@@ -69,7 +69,7 @@
       .contact-info, .links {
         font-size: 1.3em;
           text-align: center;
-          margin: 0 20rem;
+          margin: 0 10rem 0 0; /* Adjust the right margin (10rem here) to control the spacing */
           flex-basis: 100%; /* Takes full width on smaller screens */
       
       }
@@ -90,8 +90,8 @@
       @media (max-width: 768px) {
         .contact-info, .links {
             flex: 1;
-            margin: 1rem 0;
-        }
+            margin: 1rem 0 0 0; /* Adjust the margins for smaller screens */
+          }
       
         .centered-logo {
             flex: 2;
