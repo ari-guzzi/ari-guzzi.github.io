@@ -3,7 +3,7 @@
         NAV BAR
        ************/
     /* Add a background color to the top navigation */
-    .topnav {
+    body .topnav {
         text-align: center;
         background-color: #CCBCBC;
         overflow: hidden;
