@@ -54,8 +54,9 @@
        /***********
         BODY
        ************/
-    
+       
         body { 
+          padding-bottom: 10rem;
           text-align: CENTER;
           background: #F1E3E4;
           color: #1C1D21
@@ -105,17 +106,13 @@
       }
       /* Responsive styles */
       @media (max-width: 768px) {
-        .contact-info, .links {
-            flex: 1;
-            margin: .5rem 0 0 0; /* Adjust the margins for smaller screens */
-          }
-      
-        .centered-logo {
-            flex: 2;
-            order: 1;
+        .contact-info, .links, .centered-logo {
+          font-size: 3vw; /* Adjust as needed */
+          font-size: 1em; /* Adjust as needed */
+          margin-right: .3rem; /* Adjust as needed */
+
+
         }
-      
-        .links {
-            order: 3;
-        }
-      }
+
+        
+    }
