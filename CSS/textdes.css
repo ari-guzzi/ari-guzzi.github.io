@@ -32,9 +32,8 @@
 .button-view {
   display: block; /* Initially show the button view */
 }
-
+/**
 @media screen and (min-width: 768px) {
   .pdf-view {
-      display: block; /* Show PDF view on screens wider than 768px (like tablets and computers) */
-  }
-}
+      display: block; /* Show PDF view on screens wider than 768px (like tablets and computers) }}s*/
+  
