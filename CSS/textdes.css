@@ -1,5 +1,4 @@
 
-
 .button {
   background: #A288A6;
   border-radius: 999px;
@@ -7,7 +6,6 @@
   box-sizing: border-box;
   color: #F1E3E4;
   cursor: pointer;
-  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 30px;
