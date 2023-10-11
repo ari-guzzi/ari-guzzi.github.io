@@ -110,7 +110,7 @@
         .contact-info, .links, .centered-logo {
           font-size: 3vw; /* Adjust as needed */
           font-size: 1em; /* Adjust as needed */
-          margin-right: .3rem; /* Adjust as needed */
+          margin-right: .3; /* Adjust as needed */
 
 
         }

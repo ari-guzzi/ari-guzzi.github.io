@@ -1,9 +1,8 @@
 .color-block {
   background-color: #BB9BB0;
-  padding: 2rem; /* Add some padding to the content */
+  padding: 2vw; /* Add some padding to the content */
   text-align: center; /* Center the text */
-  height: 90%; 
-  width: 100%;
+ width: 100%;
 }
 h4{
   text-align: center;
