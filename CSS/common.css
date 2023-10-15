@@ -49,7 +49,7 @@
           }
           h3 {
             color: #F1E3E4;
-            font-size: 4.8em;
+            font-size: 5em;
           }
 
        /***********
@@ -80,13 +80,12 @@
         display: flex;
           align-items: center;
           justify-content: space-between;
-          padding: 1rem;
-          height:10rem;
+          height:15rem;
           width: 100%;
       }
       
       .contact-info, .links {
-        font-size: 1.3em;
+        font-size: 1.7em;
           text-align: center;
           margin: 0 10rem 0 0; /* Adjust the right margin (10rem here) to control the spacing */
           flex-basis: 100%; /* Takes full width on smaller screens */
@@ -103,16 +102,17 @@
       footer a {
           text-decoration: none;
           color: #F1E3E4;
-          margin: 0 1rem;
+          margin: 0 1rem 0 0;
       }
       /* Responsive styles */
       @media (max-width: 768px) {
-        .contact-info, .links, .centered-logo {
-          font-size: 3vw; /* Adjust as needed */
-          font-size: 1em; /* Adjust as needed */
-          margin-right: .3; /* Adjust as needed */
-
-
+        .contact-info, .links {
+          font-size: .75em; /* Adjust as needed */
+          margin: 0 0 0 .5rem; /* Adjust as needed */
+        }
+        .centered-logo{
+          font-size: .75em;
+          margin: 0 0 0 -.5rem; /* Adjust as needed */
         }
 
         

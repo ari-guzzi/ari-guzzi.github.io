@@ -39,4 +39,10 @@ box-shadow: 1rem 1rem .5rem #000000;
   max-height:40rem;
 }
 
-  
+@media (max-width: 768px) {
+  .work-item {
+    margin: 1em;
+    flex-basis: 330%; /* Set to 33.33% for three items per line */
+    max-width: 50rem; /* Adjust as needed */
+  }
+}

@@ -1,6 +1,6 @@
 .color-block {
   background-color: #BB9BB0;
-  padding: 2vw; /* Add some padding to the content */
+  padding: 1vw 0 0 0; /* Add some padding to the content */
   text-align: center; /* Center the text */
  width: 100%;
 }
