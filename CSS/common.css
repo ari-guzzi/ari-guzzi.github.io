@@ -110,11 +110,11 @@
       /* Responsive styles */
       @media (max-width: 768px) {
         .contact-info, .links {
-          font-size: .75em; /* Adjust as needed */
+          font-size: .8em; /* Adjust as needed */
           margin: 0 0 0 .5rem; /* Adjust as needed */
         }
         .centered-logo{
-          font-size: .75em;
+          font-size: .8em;
           margin: 0 0 0 -.5rem; /* Adjust as needed */
         }
 
