@@ -35,11 +35,15 @@
   .img-grid-row-2{
     grid-row: span 2;
   }
-  @media screen and (max-width:768px){
-    .image-grid{
-        --num-cols: 1;
-        --row-height: 20rem;
+  @media screen and (max-width: 768px) {
+    .img-grid {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
-    
-  }
   
+    .img-grid img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
