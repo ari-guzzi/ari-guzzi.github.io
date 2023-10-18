@@ -33,7 +33,7 @@ h6{
   border: 2px solid #A288A6;
   font-size: 3em;
   padding: 15px;
-  width: 30%;
+  width: 50%;
 }
 .button:hover{
 box-shadow: 1rem 1rem .5rem #000000;
@@ -65,12 +65,14 @@ img {
   opacity: .8;
 }
 
-@media screen and (max-width: 1075px) {
+@media screen and (max-width: 768px) {
   .content {
     flex-direction: column;
     grid-template-columns: 1fr;
   }
   img {
+    object-fit: cover; 
+    max-height:80%;
     margin: 5% 1% 5% 5%;
     justify-content: center; /* Horizontally center content */
   }
@@ -82,7 +84,6 @@ img {
   }
   .button{
     font-size: 2em;
-    width: 30%;
     margin: 0 0 0 30%;
   }
 }
