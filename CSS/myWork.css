@@ -1,7 +1,7 @@
 .work-gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center !important;
   margin: 2rem;
 }
 
@@ -16,7 +16,10 @@
   height: auto;
 }
   
-  
+h2 {
+  text-align: center;
+  font-size: 2.7em;
+}
 
 .work-gallery > img {
  max-width: 0;
