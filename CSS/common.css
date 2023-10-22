@@ -1,4 +1,11 @@
-    
+
+/* Colors!
+ * Black: #1C1D21
+ * Dark Purple: #A288A6
+ * Light Purple: #BB9BB0
+ * Dark Gray: #CCBCBC
+ * Light Gray: #F1E3E4
+ */
      html{
       font-family: "Didot", serif;
      }
@@ -14,7 +21,7 @@
         justify-content: center;
         width:100%;
       }
-        
+
         /* Style the links inside the navigation bar */
         .topnav a {
           float: center;
@@ -24,19 +31,19 @@
           text-decoration: none;
           font-size: 1.3em;
         }
-        
+
         /* Change the color of links on hover */
         .topnav a:hover {
           background-color: #BB9BB0;
           color: #F1E3E4;
         }
-        
+
         /* Add a color to the active/current link */
         .topnav a.active {
           background-color: #A288A6;
           color: #F1E3E4;
         }
-      
+
        /***********
         HEADERS
        ************/
@@ -46,7 +53,7 @@
             color: #A288A6;
             padding-top: 3rem;
           }
-      
+
           h2 {
             text-align: center;
           }
@@ -58,8 +65,8 @@
        /***********
         BODY
        ************/
-       
-        body { 
+
+        body {
           padding-bottom: 10rem;
           text-align: CENTER;
           background: #F1E3E4;
@@ -73,11 +80,11 @@
         text-align: center;
       }
 
-     
+
       /***********
         FOOTER
        ************/
-        
+
       footer {
         background-color: #A288A6;
         display: flex;
@@ -86,22 +93,22 @@
           height:15rem;
           width: 100%;
       }
-      
+
       .contact-info, .links {
         font-size: 1.7em;
           text-align: center;
           margin: 0 10rem 0 0; /* Adjust the right margin (10rem here) to control the spacing */
           flex-basis: 100%; /* Takes full width on smaller screens */
-      
+
       }
-      
+
       .centered-logo {
           text-align: center;
           flex: 1;
           flex-basis: 100%; /* Takes full width on smaller screens */
-      
+
       }
-      
+
       footer a {
           text-decoration: none;
           color: #F1E3E4;
@@ -118,5 +125,5 @@
           margin: 0 0 0 -.5rem; /* Adjust as needed */
         }
 
-        
+
     }

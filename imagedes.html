@@ -47,10 +47,10 @@
         This animation was created using Adobe Photoshop.  
         <br>
         <br>
-        <video width="640" height="360" controls>
-            <source src="../images/My%20Work/image/OnionSkimming.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
+        <video id="myVideo" width="640" height="360" controls> == $0.playbackRate = .5
+          <source src="../images/My%20Work/image/OnionSkimming.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
         <br>
         <br>    
     </p>
@@ -68,6 +68,14 @@
         <a href="../images/2023%20resume.pdf" target="_blank">Resume</a>
       </div>
 </footer>
-<script src="../javascript/loadpage.js"></script>
+<script src="../javascript/loadpage.js">
+let vid = document.getElementById("myVideo");
+function getPlaySpeed() { 
+  alert(vid.playbackRate);
+} 
+function setPlaySpeed() { 
+  vid.playbackRate = 0.5;
+} 
+</script>
     </body>
 </html>
