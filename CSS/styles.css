@@ -1,21 +1,28 @@
+body{
+  overflow: hidden;
+}
+
 .color-block {
   background-color: #BB9BB0;
   padding: 1vw 0 0 0; /* Add some padding to the content */
- width: 10  0%;
+ /* width: 20  0%; */
+ height: 20%;
 }
 h4{
   text-align: center;
   font-size: 3em;
   color: #F1E3E4;
   font-family: 'Bodoni Moda';
+  margin-top: 0;
 }
 
 h5{
   text-align: left;
   font-size: 2em;
   color: #F1E3E4;
-  margin: 0 0 5% 15%;
+  margin: 0 0 5% 25%;
   font-family: 'Bodoni Moda';
+  margin-top: -1.5rem;
 }
 
 h6{
@@ -24,12 +31,13 @@ h6{
   color: #F1E3E4;
   font-style: italic;
  padding-bottom: 2rem; /* Adjust as needed */
- margin: 0 0 0 20%;
+ margin: 0 0 0 30%;
  font-family: 'Bodoni Moda';
+ margin-top: -1rem;
 }
 
 .button{
-  margin: 10% 0 10% 20%;
+   margin: 10% 0 0 20%; 
   text-align: center;
   background-color: #F1E3E4;
   color: #1C1D21;
@@ -38,6 +46,7 @@ h6{
   padding: 15px;
   width: 50%;
   font-family: 'Bodoni Moda';
+  align-items: center;
 }
 .button:hover{
 box-shadow: 1rem 1rem .5rem #000000;
@@ -70,6 +79,9 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+  body{
+    overflow: auto;
+  }
   .content {
     flex-direction: column;
     grid-template-columns: 1fr;

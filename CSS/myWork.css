@@ -8,11 +8,11 @@
 .work-item {
   margin: 1em;
   flex-basis: 33.33%; /* Set to 33.33% for three items per line */
-  max-width: 400rem; /* Adjust as needed */
+  max-width: 400rem; 
 }
 
 .work-item img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
   

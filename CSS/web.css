@@ -1,0 +1,42 @@
+
+
+.button1 {
+    background: #A288A6;
+    border-radius: 999px;
+    box-shadow: #A288A6 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #F1E3E4;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .pdf-view {
+    display: none; /* Initially hide the PDF view */
+  }
+  
+  .button-view {
+    display: block; /* Initially show the button view */
+  }
+
+@media (max-width: 767px) {
+    video {
+      max-width: 100%;
+      height: auto;
+    }
+  }

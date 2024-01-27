@@ -20,10 +20,10 @@
   border: 0;
 }
 
-.container {
+/* .container {
   display: flex;
   flex-direction: column;
-}
+} */
 
 .pdf-view {
   display: none; /* Initially hide the PDF view */
