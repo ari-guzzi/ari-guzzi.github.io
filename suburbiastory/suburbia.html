@@ -135,7 +135,22 @@ text-align: center;
   margin: 10px;
   padding: 20px;
   font-size: 30px;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="names" tags="" position="325,250" size="100,100">
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript">$(document).on('postrender', function (event) {
+    // Retrieve the user input from the Twine variable
+    var firstname = State.variables.firstname || "";
+
+    // Capitalize the first letter using a function
+    firstname = capitalizeFirstLetter(firstname);
+
+    // Update the Twine variable with the capitalized value
+    State.variables.firstname = firstname;
+});
+
+// Function to capitalize the first letter
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+</script><tw-passagedata pid="1" name="names" tags="" position="325,250" size="100,100">
 
 &lt;div class=&quot;flex-container&quot;&gt;
 &lt;div&gt;
