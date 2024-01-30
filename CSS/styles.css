@@ -16,11 +16,7 @@ body{
 
  
 }
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
+
 
 h4{
   text-align: center;
@@ -120,6 +116,7 @@ img {
   }
   .button{
     font-size: 2em;
-    margin: 0 0 10% 30%;
+    justify-content: center;
+    /* margin: 0 0 10% 30%; */
   }
 }
