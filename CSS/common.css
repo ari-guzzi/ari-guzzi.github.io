@@ -12,13 +12,16 @@
        ************/
     /* Add a background color to the top navigation */
     body .topnav {
+      z-index: 5;
+      overflow: hidden;
         text-align: center;
         background-color: #CCBCBC;
-        overflow: hidden;
+    
         display: flex;
         justify-content: center;
         width:100%;
         font-family: 'Bodoni Moda';
+    
       }
 
         /* Style the links inside the navigation bar */
