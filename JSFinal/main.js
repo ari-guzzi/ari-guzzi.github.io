@@ -7,10 +7,10 @@ document.addEventListener("DOMContentLoaded", function() {
   let radius;
 
   // Adjust radius based on device width
-  if (window.innerWidth <= 768) {
-    radius = 100; // Adjusted radius for mobile devices
+  if (window.innerWidth == 800 | window.innerWidth > 768) { 
+    radius = 180; // Adjusted radius for mobile devices
   } else {
-    radius = 180; // Default radius for desktop devices
+    radius = 100; // Default radius for desktop devices
   }
   let balloonSize =50;
   const orbitSpeed = 0.0012; 
