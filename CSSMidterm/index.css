@@ -291,3 +291,50 @@ h6{
           }
       }
       
+      @media (max-width: 768px) {
+        h1{
+            font-size: 2em;
+        }
+        h2{
+            font-size: 1.5em;
+        }
+        h3{
+            font-size: 1.4em;
+        }
+        h4{
+            margin-bottom: 2vw;
+        }
+        .grid {
+            flex-direction: column;
+            grid-template-columns: 1fr;
+          }
+          .topnav a {
+            font-size: .8em; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .carousel-container {
+            width: 100%;
+          }
+          .contact-info, .links {
+            font-size: .6em;
+            margin: 0 0 0 .5rem; 
+          }
+          .centered-logo{
+            font-size: .6em;
+            margin: 0 0 0 -.5rem;
+          }
+          .path-image {
+            max-height: 50%;
+            left: 10%;
+          }
+          .path-image2 {
+            max-height: 50%;
+            left: 70%;
+          }
+          p{
+            font-size: 1em;
+          }
+      }
+      
