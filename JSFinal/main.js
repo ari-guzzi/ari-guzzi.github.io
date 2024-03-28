@@ -4,8 +4,15 @@ document.addEventListener("DOMContentLoaded", function() {
   const container = document.querySelector('.container');
   const balloons = document.getElementById('balloons');
   const balloonCount = 10; 
-  const radius = 180;
-  const balloonSize = 50; 
+  let radius;
+
+  // Adjust radius based on device width
+  if (window.innerWidth <= 768) {
+    radius = 100; // Adjusted radius for mobile devices
+  } else {
+    radius = 180; // Default radius for desktop devices
+  }
+  let balloonSize =50;
   const orbitSpeed = 0.0012; 
 
   function createBalloon(number) {
@@ -39,12 +46,17 @@ document.addEventListener("DOMContentLoaded", function() {
       const time = performance.now() - start;
       const angle = startAngle + orbitSpeed * time;
 
+      
       //Math.cos(angle) * radius - calculates horizontal component of the circular motion
       //container.offsetWidth / 2 centers the circle horizontally 
       //balloonSize / 2 offsets the position by half the balloon's size, so the balloon's center is placed correctly
       const x = Math.cos(angle) * radius + container.offsetWidth / 2 - balloonSize / 2;
-      const y = Math.sin(angle) * radius + container.offsetHeight / 2 - balloonSize / 2;
-
+      let y;
+      if (window.innerWidth <= 768) {
+        y = Math.sin(angle) * radius + container.offsetHeight / 2 - balloonSize / 2 - 120; // Adjusted radius for mobile devices
+      } else {
+        y =Math.sin(angle) * radius + container.offsetHeight / 2 - balloonSize / 2;      
+      }
       balloon.style.left = `${x}px`;
       balloon.style.top = `${y}px`;
 

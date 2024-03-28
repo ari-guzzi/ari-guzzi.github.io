@@ -8,3 +8,9 @@ function loadPage(page) {
     xhttp.open("GET", page + ".html", true);
     xhttp.send();
 }
+
+// Get the width of the current screen
+var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
+console.log("Current screen width: " + screenWidth + "px");
+
