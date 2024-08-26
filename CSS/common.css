@@ -10,6 +10,10 @@
      /***********
         NAV BAR
        ************/
+       html, body {
+        height: 100%;
+        margin: 0;
+    }
     /* Add a background color to the top navigation */
     body .topnav {
       z-index: 5;
@@ -23,7 +27,9 @@
         font-family: 'Bodoni Moda';
     
       }
-
+      main {
+        flex: 1; /* This will push the footer down */
+    }
         /* Style the links inside the navigation bar */
         .topnav a {
           float: center;
@@ -95,6 +101,11 @@
           justify-content: space-between;
           height:12rem;
           width: 100%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
       }
 
       .contact-info, .links {
@@ -115,7 +126,7 @@
       footer a {
           text-decoration: none;
           color: #F1E3E4;
-          margin: 0 1rem 0 0;
+          margin: 0 1rem 0 -1rem;
       }
       /* Responsive styles */
       @media (max-width: 768px) {
