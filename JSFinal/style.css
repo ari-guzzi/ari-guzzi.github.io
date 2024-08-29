@@ -446,21 +446,21 @@ h4{
       width: 60%; 
       height: 80%; 
       transform: scale(0.6);
-      top: 10%; 
+      /* top: 10%;  */
       left: 20%; 
   }
 
   .circle {
       width: 60%; 
       height: 80%; 
-      top: 5%; 
+      /* top: 5%;  */
       left: 20%; 
   }
 
   .phone-base {
       width: 90%;
       height: 70%; 
-      top: 5%; 
+      /* top: 5%;  */
       left: 5%; 
       z-index: -1;
   }
