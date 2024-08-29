@@ -431,7 +431,6 @@ h4{
 
   @media (max-width: 800px) and (max-height: 600px) {
 
-
     h2, h3{
       display: none !important;
 
@@ -454,14 +453,14 @@ h4{
   .circle {
       width: 60%; 
       height: 80%; 
-      top: 10%; 
+      top: 5%; 
       left: 20%; 
   }
 
   .phone-base {
       width: 90%;
       height: 70%; 
-      top: 20%; 
+      top: 5%; 
       left: 5%; 
       z-index: -1;
   }
