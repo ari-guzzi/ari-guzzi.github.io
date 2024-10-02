@@ -38,6 +38,10 @@ html, body {
     margin-top: 1%;
     margin-bottom: 1%;
   }
+  #videospace{
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
   /* .container {
     display: flex;
     flex-direction: column;
@@ -63,5 +67,8 @@ html, body {
     iframe {
       width: 26rem;
       height: 40rem; /* Adjust height for smaller devices */
+  }
+  #videospace{
+    margin-top: -15em;
   }
   }
