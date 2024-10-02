@@ -90,7 +90,7 @@
         font-size: 1.3em;
         max-width: 80rem;
         margin: 0 auto;
-        padding: 1rem; /* Adjust as needed */
+        padding: 1rem;
         text-align: center;
       }
 
@@ -116,7 +116,7 @@
       .contact-info, .links {
         font-size: 1.7em;
           text-align: center;
-          margin: 0 10rem 0 0; /* Adjust the right margin (10rem here) to control the spacing */
+          margin: 0 10rem 0 0; 
           flex-basis: 100%; /* Takes full width on smaller screens */
 
       }
@@ -136,12 +136,12 @@
       /* Responsive styles */
       @media (max-width: 768px) {
         .contact-info, .links {
-          font-size: .8em; /* Adjust as needed */
-          margin: 0 0 0 .5rem; /* Adjust as needed */
+          font-size: .8em; 
+          margin: 0 0 0 .5rem; 
         }
         .centered-logo{
           font-size: .8em;
-          margin: 0 0 0 -.5rem; /* Adjust as needed */
+          margin: 0 0 0 -.5rem; 
         }
 
 

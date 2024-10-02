@@ -47,10 +47,18 @@ html, body {
   .button-view {
     display: block; /* Initially show the button view */
   }
-
+  iframe {
+    width: 90rem;    /* Set the width to 100% of its container's width */
+    height: 40rem;  /* Set a fixed height or use vh (viewport height) */
+    border: 0;      /* Removing the frameborder attribute in CSS */
+}
 @media (max-width: 767px) {
     video {
       max-width: 100%;
       height: auto;
     }
+    iframe {
+      width: 26rem;
+      height: 40rem; /* Adjust height for smaller devices */
+  }
   }
