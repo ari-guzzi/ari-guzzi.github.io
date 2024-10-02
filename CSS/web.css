@@ -34,7 +34,10 @@ html, body {
     word-break: break-word;
     border: 0;
   }
-  
+  #space{
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
   /* .container {
     display: flex;
     flex-direction: column;
@@ -48,8 +51,8 @@ html, body {
     display: block; /* Initially show the button view */
   }
   iframe {
-    width: 90rem;    /* Set the width to 100% of its container's width */
-    height: 40rem;  /* Set a fixed height or use vh (viewport height) */
+    width: 95%;    
+    height: 90%;  /* Set a fixed height or use vh (viewport height) */
     border: 0;      /* Removing the frameborder attribute in CSS */
 }
 @media (max-width: 767px) {

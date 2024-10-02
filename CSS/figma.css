@@ -31,6 +31,11 @@
   word-break: break-word;
   border: 0;
 }
+iframe {
+  width: 95%;    
+  height: 90%;  /* Set a fixed height or use vh (viewport height) */
+  border: 0;      /* Removing the frameborder attribute in CSS */
+}
 
 @media (max-width: 768px) {
   .button1{
