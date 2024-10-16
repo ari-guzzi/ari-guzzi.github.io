@@ -30,7 +30,7 @@
       }
       main {
         flex-grow: 1; /* This will push the footer down */
-        overflow-y: hidden;
+        overflow-y: auto;
     }
         /* Style the links inside the navigation bar */
         .topnav a {
