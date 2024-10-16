@@ -10,16 +10,12 @@
   font-family: 'Bodoni Moda';
 }
 
-.article, .aside{
-  width: fit-content;
- }
-
 
  h2 {
   text-align: left !important;
 }
 
-img {
+aside img {
   justify-content: center; /* Horizontally center content */
   object-fit: cover; /* Prevent distortion by covering the container */
   height: 100%;
