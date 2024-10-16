@@ -124,6 +124,9 @@
         flex-basis: 100%; /* Takes full width on smaller screens */
 
       }
+      .links {
+        margin: 0 0 0 10rem;
+      }
 
       .centered-logo img{
         display: block;
