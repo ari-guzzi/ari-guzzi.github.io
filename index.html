@@ -75,13 +75,15 @@
     textElements.forEach(function(text) {
       text.setAttribute('font-size', '50'); // Increase font size
     });
-  } else if (width>1330){
-    topPath.setAttribute('d', 'M10,300 Q250,60 490,300');// really big width top path
-    bottomPath.setAttribute('d', 'M10,80 Q250,580 490,80'); // really big width bottom path
-    textElements.forEach(function(text) {
-      text.setAttribute('font-size', '18'); // Original font size
-    });
-  } else {
+}
+//    else if (width>1330){
+//     topPath.setAttribute('d', 'M10,300 Q250,60 490,300');// really big width top path
+//     bottomPath.setAttribute('d', 'M10,80 Q250,580 490,80'); // really big width bottom path
+//     textElements.forEach(function(text) {
+//       text.setAttribute('font-size', '18'); // Original font size
+//     });
+//   } 
+else {
     // Less pronounced curves and normal text size for larger screens
     topPath.setAttribute('d', 'M10,300 Q250,40 490,300');// Original top path
     bottomPath.setAttribute('d', 'M10,80 Q250,600 490,80'); // Original bottom path

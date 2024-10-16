@@ -112,8 +112,8 @@ footer {
     font-size: 2em !important;
   }
 }
-@media screen and (min-width: 1330px) {
+/* @media screen and (min-width: 1330px) {
   .content{
     background-size: 20%;
   }
-}
+} */
