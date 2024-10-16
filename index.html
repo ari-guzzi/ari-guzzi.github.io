@@ -12,42 +12,37 @@
     <link rel="icon" type="image/x-icon" href="images/AG2LightPurple.png">
 </head>
 <body>
-    <h1>Ari Guzzi</h1>
+    <!-- <h1>Ari Guzzi</h1>
 
 <div class="topnav">
     <a class="active" href="/" onclick="loadPage('index')"> Home</a>
     <a href="myWork.html" onclick="loadPage('myWork')" >My Work</a>
     <a href="AboutMe.html" onclick="loadPage('AboutMe')">About Me</a>
-</div>
+</div> -->
 
     <main class="color-block">
-        <h4>Welcome to my Portfolio Website</h4>
 
         <div class = "content">
-            
-        <!--<h4>Welcome to My Website</h4>
-         <div class = "content">
-            <aside>
-                <img src="images/My Work/text/logo.png" alt="Me">
-            </aside>
-            <article> -->
-                <!-- <div class="words"> -->
-                    <aside>
-                        <img class = "logo" src = "images/AG2LightGrey.png" alt="Me">
-                    <!--<h5> Here you can...</h5>
-                        <h6>- Learn about me</h6>
-                        <h6>- Contact me</h6>
-                        <h6>- Look at my projects</h6>
-                        <br><br>-->
-                    </aside>
-                <!-- </div> -->
-                <article>
-                <h5>Dive into my portfolio, <br> explore my creations, <br> and learn about me!</h5>
-                <a href="myWork.html" onclick="loadPage('myWork')">
-                    <div class="button">Get Started!</div></a><br>
-                </article>
-            <!-- </article> -->
+            <svg width="500" height="200" viewBox="0 0 500 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <!-- Top arch path for "Ari Guzzi" -->
+                <path id="topCurve" fill="transparent" d="M10,100 Q250,-70 490,100" />
+                <text fill="#BB9BB0" font-size="18">
+                    <textPath xlink:href="#topCurve" startOffset="50%" text-anchor="middle" dominant-baseline="hanging">
+                        Ari Guzzi
+                    </textPath>
+                </text>
+                <!-- Bottom arch path for "Front End Developer" -->
+                <path id="bottomCurve" fill="transparent" d="M10,80 Q250,290 490,80" />
+                <text fill="#BB9BB0" font-size="18">
+                    <textPath xlink:href="#bottomCurve" startOffset="51%" text-anchor="middle" dominant-baseline="baseline">
+                        Front End Developer
+                    </textPath>
+                </text>
+            </svg>
         </div>
+                <a href="myWork.html" onclick="loadPage('myWork')">
+                    <div class="button">View My Portfolio!</div></a><br>
+        
     </main>
 
   <footer>
