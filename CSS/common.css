@@ -31,6 +31,7 @@
       main {
         flex-grow: 1; /* This will push the footer down */
         overflow-y: auto;
+        justify-content: flex-end;
     }
         /* Style the links inside the navigation bar */
         .topnav a {
@@ -103,8 +104,7 @@
        ************/
 
       footer {
-        
-        background-color: #A288A6;
+         background-color: #A288A6;
         display: flex;
         align-items: center;
         justify-content: space-between;

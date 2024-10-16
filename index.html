@@ -23,7 +23,7 @@
     <main class="color-block">
 
         <div class = "content">
-            <svg width="500" height="200" viewBox="0 0 500 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg id="logoSVG" width="500" height="200" viewBox="0 0 500 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <!-- Top arch path for "Ari Guzzi" -->
                 <path id="topCurve" fill="transparent" d="M10,100 Q250,-70 490,100" />
                 <text fill="#BB9BB0" font-size="18">
@@ -41,8 +41,8 @@
             </svg>
         </div>
                 <a href="myWork.html" onclick="loadPage('myWork')">
-                    <div class="button">View My Portfolio!</div></a><br>
-        
+                    <div id = "viewButton" class="button">View My Portfolio!</div></a><br>
+         
     </main>
 
   <footer>
@@ -60,5 +60,21 @@
 
 </footer>
 <script src="../javascript/loadpage.js"></script>
+
+<script>
+    function updatePath() {
+      var width = window.innerWidth;
+      var path = document.getElementById('responsivePath');
+      if (width < 768) {
+        path.setAttribute('d', 'M10,30 Q250,100 490,30'); // More pronounced curve for smaller screens
+      } else {
+        path.setAttribute('d', 'M10,30 Q250,60 490,30');  // Less pronounced curve for larger screens
+      }
+    }
+    window.addEventListener('resize', updatePath);
+    updatePath();
+  </script>
+
     </body>
+    
 </html>

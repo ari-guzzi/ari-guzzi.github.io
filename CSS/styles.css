@@ -23,6 +23,27 @@ body{
   z-index: 0;
   margin-bottom: 1em;
 }
+.button{
+  display: flex;
+  /* margin-bottom: 6%;  */
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#F1E3E4;
+ text-align: center;
+ color: #BB9BB0;
+ border: 2px solid #A288A6;
+ font-size: 2em;
+ padding: .5em -.5em .5em -.5em;
+ width: 30vw;
+ font-family: 'Bodoni Moda';
+ align-items: center;
+ justify-content: center;
+}
+.button:hover{
+box-shadow: 1rem 1rem .5rem #A288A6;
+-moz-box-shadow: 0rem 1rem .5rem #A288A6;
+-webkit-box-shadow: 0rem 1rem .5rem #CCBCBC;
+}
 svg {
   width: 100%;  
   height: auto;
@@ -52,7 +73,7 @@ h6{
   font-size: 2em;
   color: #F1E3E4;
   font-style: italic;
- padding-bottom: 2rem; /* Adjust as needed */
+ padding-bottom: 2rem;
  margin: 0 0 0 30%;
  font-family: 'Bodoni Moda';
  margin-top: -1rem;
@@ -61,44 +82,7 @@ h6{
 a{
   text-decoration: none !important;
 }
-.button{
-   margin-bottom: 6%; 
-   margin-left: auto;
-   margin-right: auto;
-   background-color:#F1E3E4;
-  text-align: center;
-  color: #BB9BB0;
-  border: 2px solid #A288A6;
-  font-size: 2em;
-  padding: .5em -.5em .5em -.5em;
-  width: 30vw;
-  font-family: 'Bodoni Moda';
-  align-items: center;
-  justify-content: center;
-}
-.button:hover{
-box-shadow: 1rem 1rem .5rem #A288A6;
--moz-box-shadow: 0rem 1rem .5rem #A288A6;
--webkit-box-shadow: 0rem 1rem .5rem #CCBCBC;
-}
 
-/* .content{
-  background: url("../images/AG2DarkPurple.png") no-repeat fixed center;
-
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-} */
-.words{
-  margin: 15% 0 0 0;
-  font-size: 1.5em;
-}
-
-  img.logo {
-  max-height: 40%;
-}
-/* article{
-  margin-right: 20%;
-} */
 footer {
   position: fixed;
 }
@@ -113,9 +97,9 @@ footer {
     width: 50vw;
     font-size: 2em;
     justify-content: center;
-    margin: 0 0 10% 20%; 
+    /* margin: 0 0 10% 20%;  */
     font-size: 1em;
-    margin-top: -20%;
+    /* margin-top: -20%; */
   }
   h4{
     font-size: 2em !important;
