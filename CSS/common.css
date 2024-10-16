@@ -11,8 +11,9 @@
         NAV BAR
        ************/
        html, body {
-        height: 100%;
+        height: 100vh;
         margin: 0;
+        
     }
     /* Add a background color to the top navigation */
     body .topnav {
@@ -28,7 +29,8 @@
     
       }
       main {
-        flex: 1; /* This will push the footer down */
+        flex-grow: 1; /* This will push the footer down */
+        overflow-y: hidden;
     }
         /* Style the links inside the navigation bar */
         .topnav a {
@@ -59,7 +61,7 @@
             text-align: center;
             font-size: 3.5em;
             color: #A288A6;
-            margin-top: 0rem;
+            margin-top: 1rem;
           }
 
           h2 {
@@ -84,7 +86,8 @@
           padding-bottom: 10rem;
           text-align: CENTER;
           background: #F1E3E4;
-          color: #1C1D21
+          color: #1C1D21;
+          min-height: 100vh;
       }
       p {
         font-size: 1.3em;
@@ -100,32 +103,32 @@
        ************/
 
       footer {
+        
         background-color: #A288A6;
         display: flex;
-          align-items: center;
-          justify-content: space-between;
-          height:12rem;
-          width: 100%;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    margin: 0;
-    padding: 0;
+        align-items: center;
+        justify-content: space-between;
+        height:12rem;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        padding: 0;
       }
 
       .contact-info, .links {
         font-size: 1.7em;
-          text-align: center;
-          margin: 0 10rem 0 0; 
-          flex-basis: 100%; /* Takes full width on smaller screens */
+        text-align: center;
+        margin: 0 10rem 0 0; 
+        flex-basis: 100%; /* Takes full width on smaller screens */
 
       }
 
-      .centered-logo {
-          text-align: center;
-          flex: 1;
-          flex-basis: 100%; /* Takes full width on smaller screens */
-
+      .centered-logo img{
+        display: block;
+        margin: 0 auto;
+        max-height: 15vh;
       }
 
       footer a {
@@ -139,10 +142,11 @@
           font-size: .8em; 
           margin: 0 0 0 .5rem; 
         }
-        .centered-logo{
-          font-size: .8em;
-          margin: 0 0 0 -.5rem; 
+        .centered-logo img{
+          max-height: 10vh;
         }
-
-
+        main {
+          overflow-y: auto;
+      }
+      
     }
