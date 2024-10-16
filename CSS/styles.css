@@ -20,7 +20,7 @@ body{
   justify-content: center;
   flex-grow: 1;
   z-index: 0;
-  /* margin-bottom: 2%; */
+  margin-bottom: 1%;
 }
 svg {
   width: 100%;  
@@ -105,10 +105,6 @@ footer {
   body{
     overflow: auto;
   }
-  img.logo {
-    max-height: 25%;
-    margin-right: 15%;
-  }
   h6, h5{
     font-size:1.5em;
   }
@@ -116,7 +112,9 @@ footer {
     width: 50%;
     font-size: 2em;
     justify-content: center;
-     margin: 0 0 10% 20%; 
+    margin: 0 0 10% 20%; 
+    font-size: 1em;
+    margin-top: -20%;
   }
   h4{
     font-size: 2em !important;
