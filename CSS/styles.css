@@ -100,7 +100,7 @@ footer {
     grid-template-columns: 1fr;
   }
   img.logo {
-    max-height: 30%;
+    max-height: 25%;
     margin-right: 15%;
   }
   h6, h5{
@@ -111,7 +111,11 @@ footer {
     justify-content: center;
      margin: 0 0 10% 20%; 
   }
+  h4{
+    font-size: 2em !important;
+  }
   article{
-    margin-top: -120%;
+    margin-top: -135%;
+    margin-right: 0%;
   }
 }
