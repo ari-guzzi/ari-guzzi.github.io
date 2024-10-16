@@ -23,7 +23,7 @@
     <main class="color-block">
 
         <div class = "content">
-            <svg id="logoSVG" width="500" height="200" viewBox="0 0 500 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg id="logoSVG" width="100%" height="auto" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <!-- Top arch path for "Ari Guzzi" -->
                 <path id="topCurve" fill="transparent" d="M10,100 Q250,-70 490,100" />
                 <text fill="#BB9BB0" font-size="18">
@@ -63,16 +63,36 @@
 
 <script>
     function updatePath() {
-      var width = window.innerWidth;
-      var path = document.getElementById('responsivePath');
-      if (width < 768) {
-        path.setAttribute('d', 'M10,30 Q250,100 490,30'); // More pronounced curve for smaller screens
-      } else {
-        path.setAttribute('d', 'M10,30 Q250,60 490,30');  // Less pronounced curve for larger screens
-      }
-    }
-    window.addEventListener('resize', updatePath);
-    updatePath();
+  var width = window.innerWidth;
+  var topPath = document.getElementById('topCurve');
+  var bottomPath = document.getElementById('bottomCurve');
+  var textElements = document.querySelectorAll('text'); // Select all text elements within the SVG
+
+  if (width < 768) {
+    // More pronounced curves and larger text for smaller screens
+    topPath.setAttribute('d', 'M10,120 Q250,-80 490,120'); // Moving the top path up
+    bottomPath.setAttribute('d', 'M-250,80 Q300,900 740,80'); // Moving the bottom path down
+    textElements.forEach(function(text) {
+      text.setAttribute('font-size', '50'); // Increase font size
+    });
+  } else if (width>1330){
+    topPath.setAttribute('d', 'M10,300 Q250,60 490,300');// really big width top path
+    bottomPath.setAttribute('d', 'M10,80 Q250,580 490,80'); // really big width bottom path
+    textElements.forEach(function(text) {
+      text.setAttribute('font-size', '18'); // Original font size
+    });
+  } else {
+    // Less pronounced curves and normal text size for larger screens
+    topPath.setAttribute('d', 'M10,300 Q250,40 490,300');// Original top path
+    bottomPath.setAttribute('d', 'M10,80 Q250,600 490,80'); // Original bottom path
+    textElements.forEach(function(text) {
+      text.setAttribute('font-size', '18'); // Original font size
+    });
+  }
+}
+
+window.addEventListener('resize', updatePath);
+document.addEventListener('DOMContentLoaded', updatePath);
   </script>
 
     </body>

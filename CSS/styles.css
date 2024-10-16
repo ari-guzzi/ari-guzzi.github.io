@@ -90,6 +90,9 @@ footer {
   body{
     overflow: auto;
   }
+  .content{
+    background-size: 70%;
+  }
   h6, h5{
     font-size:1.5em;
   }
@@ -107,5 +110,10 @@ footer {
   }
   h4{
     font-size: 2em !important;
+  }
+}
+@media screen and (min-width: 1330px) {
+  .content{
+    background-size: 20%;
   }
 }
