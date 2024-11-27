@@ -34,11 +34,12 @@ body{
     transform: scale(1.1);
   }
 }
-#videospace{
-  margin-top: 1%;
-  margin-bottom: 1%;
+video {
+  aspect-ratio: 16 / 9; /* Change according to your video's aspect ratio */
+  width: 100%;
+  height: auto;
+  max-height: 540px; /* Or as per design needs */
 }
-
 .content {
   margin-top:1%;
   z-index:1;
@@ -56,17 +57,21 @@ body{
 }
 .button{
   display: flex;
-  /* margin-bottom: 6%;  */
+  margin-top: -.5%; 
   margin-right: 40vw;
   margin-left: 40vw;
   background-color:#F1E3E4;
  text-align: center;
  color: #BB9BB0;
- border: 2px solid #A288A6;
  font-size: calc(1vw + 1vh + 1vmin);
  width: 20vw;
  font-family: 'Bodoni Moda';
  animation: blinking 1s infinite alternate;
+ padding:0;
+}
+#viewButton p{
+  text-align: center;
+  padding: 0;
 }
 
 @keyframes blinking {
@@ -126,6 +131,8 @@ a{
 
 footer {
   position: fixed;
+  margin-top: 10%;
+
 }
 @media screen and (max-width: 768px) {
   h6, h5{
@@ -158,14 +165,13 @@ footer {
 }
 @media screen and (max-height:700px) {
   video {
-      height: 30%; /* Maintain the aspect ratio */
+      height: 50%; /* Maintain the aspect ratio */
   }
 
   /* Ensure the button remains visible above the footer */
   .button {
       position: relative; /* Adjust positioning if necessary */
       z-index: 10;        /* Ensure it's above other content */
-      margin-top: 5%;     /* Give some space above the button */
       margin-bottom: 5%;  /* Give some space below before the footer starts */
   }
 
