@@ -12,36 +12,15 @@
     <link rel="icon" type="image/x-icon" href="images/AG2LightPurple.png">
 </head>
 <body>
-    <!-- <h1>Ari Guzzi</h1>
-
-<div class="topnav">
-    <a class="active" href="/" onclick="loadPage('index')"> Home</a>
-    <a href="myWork.html" onclick="loadPage('myWork')" >My Work</a>
-    <a href="AboutMe.html" onclick="loadPage('AboutMe')">About Me</a>
-</div> -->
 
     <main class="color-block">
 
-        <div class = "content">
-            <svg id="logoSVG" width="100%" height="auto" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <!-- Top arch path for "Ari Guzzi" -->
-                <path id="topCurve" fill="transparent" d="M10,100 Q250,-70 490,100" />
-                <text fill="#BB9BB0" font-size="18">
-                    <textPath xlink:href="#topCurve" startOffset="50%" text-anchor="middle" dominant-baseline="hanging">
-                        Ari Guzzi
-                    </textPath>
-                </text>
-                <!-- Bottom arch path for "Front End Developer" -->
-                <path id="bottomCurve" fill="transparent" d="M10,80 Q250,290 490,80" />
-                <text fill="#BB9BB0" font-size="18">
-                    <textPath xlink:href="#bottomCurve" startOffset="51%" text-anchor="middle" dominant-baseline="baseline">
-                        Front End Developer
-                    </textPath>
-                </text>
-            </svg>
-        </div>
-                <a href="myWork.html" onclick="loadPage('myWork')">
-                    <div id = "viewButton" class="button">View My Portfolio!</div></a><br>
+        <video id="videoPlayer" autoplay loop muted playsinline width="auto" height="540rem">
+            <source id="videoSource" src="images/logo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <a href="myWork.html" onclick="loadPage('myWork')">
+            <div id = "viewButton" class="button">View My Portfolio!</div></a>
     </main>
 
   <footer>
@@ -59,9 +38,63 @@
 
 </footer>
 <script src="../javascript/loadpage.js"></script>
-
 <script>
-    function updatePath() {
+    document.addEventListener('DOMContentLoaded', function() {
+        function adjustVideoSource() {
+            var screenWidth = window.innerWidth;
+            var videoPlayer = document.getElementById('videoPlayer');
+            var videoSource = document.getElementById('videoSource');
+
+            if (screenWidth < 768) {
+                videoSource.src = 'images/logo-small.mp4';
+            } else {
+                videoSource.src = 'images/logo.mp4';
+            }
+
+            videoPlayer.load();
+        }
+
+        // Run on initial load
+        adjustVideoSource();
+
+        // Add event listener for window resize
+        window.addEventListener('resize', adjustVideoSource);
+    });
+</script>
+
+    </body>
+    
+</html>
+
+    <!-- <h1>Ari Guzzi</h1>
+
+<div class="topnav">
+    <a class="active" href="/" onclick="loadPage('index')"> Home</a>
+    <a href="myWork.html" onclick="loadPage('myWork')" >My Work</a>
+    <a href="AboutMe.html" onclick="loadPage('AboutMe')">About Me</a>
+</div> -->
+
+<!-- <div class = "content">
+            <svg id="logoSVG" width="100%" height="auto" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path id="topCurve" fill="transparent" d="M10,100 Q250,-70 490,100" />
+                <text fill="#BB9BB0" font-size="18">
+                    <textPath xlink:href="#topCurve" startOffset="50%" text-anchor="middle" dominant-baseline="hanging">
+                        Ari Guzzi
+                    </textPath>
+                </text>
+                <path id="bottomCurve" fill="transparent" d="M10,80 Q250,290 490,80" />
+                <text fill="#BB9BB0" font-size="18">
+                    <textPath xlink:href="#bottomCurve" startOffset="51%" text-anchor="middle" dominant-baseline="baseline">
+                        Front End Developer
+                    </textPath>
+                </text>
+            </svg>
+        </div>
+        <div class = "star"><img src = "images/AG2DarkPurpleOnlyStar.png"></div> -->
+
+        
+<!-- <script>
+function updatePath() {
   var width = window.innerWidth;
   var topPath = document.getElementById('topCurve');
   var bottomPath = document.getElementById('bottomCurve');
@@ -94,8 +127,4 @@ else {
 
 window.addEventListener('resize', updatePath);
 document.addEventListener('DOMContentLoaded', updatePath);
-  </script>
-
-    </body>
-    
-</html>
+  </script> -->

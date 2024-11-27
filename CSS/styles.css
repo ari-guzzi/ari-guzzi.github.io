@@ -9,9 +9,40 @@ body{
 .topnav, footer {
   flex-shrink: 0;
 }
+.star {
+  z-index: 2;
+  top: 65px;
+  left: 559px;
+  position: absolute;
+}
+.star img {
+  width: 45%;
+  height: auto;
+  animation: spinAndScale 3s infinite;
+}
+@keyframes spinAndScale {
+  0%, 100% {
+    transform: rotate(0deg) scale(1);
+  }
+  25% {
+    transform: rotate(-360deg) scale(1);
+  }
+  50% {
+    transform: rotate(360deg) scale(1);
+  }
+  75% {
+    transform: scale(1.1);
+  }
+}
+#videospace{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
 .content {
   margin-top:1%;
-  background: #F1E3E4 url("../images/AG2DarkPurple.png") no-repeat center center;
+  z-index:1;
+  background: #F1E3E4 url("../images/AG2DarkPurpleNoStar.png") no-repeat center center;
   background-size: 25%;
   display: flex;
   /* flex-direction: column; */
@@ -26,24 +57,34 @@ body{
 .button{
   display: flex;
   /* margin-bottom: 6%;  */
-  margin-left: auto;
-  margin-right: auto;
+  margin-right: 40vw;
+  margin-left: 40vw;
   background-color:#F1E3E4;
  text-align: center;
  color: #BB9BB0;
  border: 2px solid #A288A6;
- font-size: 1.5em;
- padding: .5em -.5em .5em -.5em;
- width: 30vw;
+ font-size: calc(1vw + 1vh + 1vmin);
+ width: 20vw;
  font-family: 'Bodoni Moda';
- align-items: center;
- justify-content: center;
+ animation: blinking 1s infinite alternate;
 }
-.button:hover{
-box-shadow: 1rem 1rem .5rem #A288A6;
--moz-box-shadow: 0rem 1rem .5rem #A288A6;
--webkit-box-shadow: 0rem 1rem .5rem #CCBCBC;
+
+@keyframes blinking {
+  from {
+    background-color: #BB9BB0;
+    color:#F1E3E4
+  }
+  to {
+    background-color: #F1E3E4;
+  }
 }
+
+.button:hover {
+  box-shadow: 1rem 1rem 0.5rem #A288A6;
+  -moz-box-shadow: 0rem 1rem 0.5rem #A288A6;
+  -webkit-box-shadow: 0rem 1rem 0.5rem #CCBCBC;
+}
+
 svg {
   width: 100%;  
   height: auto;
@@ -87,34 +128,46 @@ footer {
   position: fixed;
 }
 @media screen and (max-width: 768px) {
-  body{
-    overflow: auto;
-  }
-  .content{
-    background-size: 70%;
-  }
   h6, h5{
     font-size:1.5em;
   }
   .button{
-    width: 50vw;
     font-size: 2em;
-    justify-content: center;
     /* margin: 0 0 10% 20%;  */
-    font-size: 1em;
-    margin-top: -10%;
+    margin-top: -40%;
     margin-bottom: 10%;
+    font-size: calc(.9vw + .9vh + .9vmin);
   }
+
   footer{
     margin-top: 10%;
   }
   h4{
     font-size: 2em !important;
   }
-}
-@media screen and (min-width: 1330px) {
-  .content{
-    /* background-size: 20%; */
-    margin-bottom: 4%;
+  body{
+    overflow: none;
   }
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+  .button {
+    margin-top: 10%;
+  }
+}
+@media screen and (max-height:700px) {
+  video {
+      height: 30%; /* Maintain the aspect ratio */
+  }
+
+  /* Ensure the button remains visible above the footer */
+  .button {
+      position: relative; /* Adjust positioning if necessary */
+      z-index: 10;        /* Ensure it's above other content */
+      margin-top: 5%;     /* Give some space above the button */
+      margin-bottom: 5%;  /* Give some space below before the footer starts */
+  }
+
+ 
 }

@@ -30,7 +30,7 @@
       }
       main {
         flex-grow: 1; /* This will push the footer down */
-        overflow-y: auto;
+        /* overflow-y: auto; */
         justify-content: flex-end;
     }
         /* Style the links inside the navigation bar */
@@ -148,9 +148,9 @@
         .centered-logo img{
           max-height: 5vh;
         }
-        main {
+        /* main {
           overflow-y: auto;
-      }
+      } */
       footer {
         height: 10rem;
       }
