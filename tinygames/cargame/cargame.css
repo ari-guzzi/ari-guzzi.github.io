@@ -1,0 +1,22 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('checkers.jpg');
+}
+
+#gameContainer {
+    width: 90vw;
+    height: 90vh;
+    overflow: hidden;
+    position: relative;
+}
+
+canvas {
+    width: 90vw;
+    height: 90vh;
+    display: block;
+    background-color: green;
+}

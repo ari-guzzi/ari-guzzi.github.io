@@ -1,0 +1,53 @@
+{ 
+"projects": [{
+    "name": "Bayou Bolt",
+    "subtitle": "Bayou Bolt is a New Orleans themed 2D scrolling jumping platform tiny game. It is coded in Lua and designed with Pico-8 for its sprite and map editor.",
+    "github": "https://github.com/ari-guzzi/tinygamesfinal/blob/main/final.lua",
+    "video": "images/My Work/web/tinygame2.mp4",
+    "images": ["bayoubolt1.png", "bayoubolt2.png", "bayoubolt3.png", "bayoubolt4.png"],
+    "button1": "tinygames/final.html",
+    "subdomain": "game"
+},{
+    "name": "Frog Soup",
+    "subtitle": "Frog Soup is a game created with Bitsy.",
+    "github": ["https://github.com/ari-guzzi/ari-guzzi.github.io/blob/main/tinygames/frog-soup.html"],
+    "video": "images/My Work/web/frogsoup.mp4",
+    "images": ["frogsoup1.png", "frogsoup2.png", "frogsoup3.png"],
+    "button1": "tinygames/frog-soup.html",
+    "subdomain": "game"
+},{
+    "name": "Dodge the Cracks",
+    "subtitle": "Dodge the Cracks is a game created with Vanilla JavaScript, HTML, and CSS. It was inspired by the  game, Flappy Bird.",
+    "github": ["https://github.com/ari-guzzi/ari-guzzi.github.io/blob/main/tinygames/cargame/cargame.html"],
+    "video": "images/My Work/web/cargame.mp4",
+    "images": ["cargame1.png"],
+    "button1": "tinygames/cargame/cargame.html",
+    "subdomain": "game"
+},{
+    "name": "Frustrating Phone Number Enter-er",
+    "subtitle": "This frustrating, but functional, phone number enter-er was built with HTML, CSS, and Javascript. It was inspired by combining the concepts of Wild-West carnival games and rotary phones into one shooting game.",
+    "github": ["https://github.com/ari-guzzi/ari-guzzi.github.io/blob/main/JSFinal/JSfinal.html"],
+    "video": "images/My Work/web/jsfinal5.mp4",
+    "images": ["frustratingphonenumber1.png","frustratingphonenumber2.png"],
+    "button1": "../JSFinal/JSfinal.html",
+    "subdomain": "web"
+},{
+    "name": "CRyder and Dirty Beets Informational Webpage",
+    "subtitle": "CRyder and Dirty Beets is a local band in Colorado. They asked me to build them an informational webpage. I used HTML, CSS, and Javascript to create this site. I conducted UX Research to determine the best layout and design for their site and branding.",
+    "github": ["https://github.com/CCRyderDirtyBeets/CCRyderDirtyBeets"],
+    "video": "images/My Work/web/dirtybeets.mp4",
+    "images": ["dirtybeets1.png","dirtybeets2.png"],
+    "button1": "https://ccryderanddirtybeets.com",
+    "subdomain": "web"
+},{
+    "name": "Zane McMorris Personal Portfolio",
+    "subtitle": "Zane McMorris is an electrical computer engineer at CU Boulder. He asked me to build him a personal portfolio where he can show off his projects.",
+    "github": ["https://github.com/zanemcmorris/zanemcmorris.github.io"],
+    "video": "images/My Work/web/zane.mp4",
+    "images": ["zane1.png","zane2.png"],
+    "button1": "https://zanemcmorris.github.io/",
+    "subdomain": "web"
+}
+
+]
+}

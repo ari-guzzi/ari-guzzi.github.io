@@ -1,0 +1,103 @@
+#grid {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.left, .right {
+    flex: 1;
+    padding: 10px;
+}
+
+.slideshow img {
+    width: 100px; /* Adjust size as needed */
+    margin: 5px;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+.button1 {
+    background: #A288A6;
+    border-radius: 999px;
+    box-shadow: #A288A6 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #F1E3E4;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+  }
+
+  .mySlides {
+    display: none;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 2%;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  @media screen and (max-width: 1075px) {
+    .row {
+        flex-wrap: wrap; /* Stack items vertically */
+        flex-direction: column; /* Change direction to column */
+    }
+
+    .left, .right {
+        flex: unset; /* Remove equal spacing */
+        width: 100%; /* Make each section take the full width */
+    }
+}
