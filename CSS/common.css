@@ -6,7 +6,17 @@
  * Dark Gray: #CCBCBC
  * Light Gray: #F1E3E4
  */
+ .fade-in-section {
+  opacity: 0;
+  transform: translateY(20px); /* Slightly moves the element up before it fades in */
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
 
+/* Class to be added when element is in view */
+.fade-in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
      /***********
         NAV BAR
        ************/
@@ -15,6 +25,7 @@
         margin: 0;
         
     }
+  
     /* Add a background color to the top navigation */
     body .topnav {
       z-index: 5;

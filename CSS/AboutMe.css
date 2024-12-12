@@ -14,16 +14,20 @@
  h2 {
   text-align: left !important;
 }
-
-aside img {
-  justify-content: center; /* Horizontally center content */
-  object-fit: cover; /* Prevent distortion by covering the container */
+aside {
+  display: flex;
+  justify-content: center; /* Horizontally centers the content */
+  align-items: center; /* Vertically centers the content */
   height: 100%;
+}
+aside img {
+  object-fit: cover;
+  height: 90%;
   max-width: 100%;
   -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
   clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
   opacity: .8;
-  margin: 0 0 20% 0;
+  margin: auto 0; /* Centering in potentially taller container */
 }
 
 @media screen and (max-width: 1075px) {
