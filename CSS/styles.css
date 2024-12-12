@@ -165,12 +165,12 @@ footer {
 }
 @media screen and (max-height:700px) {
   video {
-      height: 60vh;
+      height: 50vh;
   }
   .button {
     margin-right:auto;
     margin-left:auto;
-      margin-top: -5%;
+      margin-top: 5%;
       position: relative;
       z-index: 10;       
       margin-bottom: 5%;  
