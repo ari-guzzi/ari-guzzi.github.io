@@ -168,6 +168,8 @@ footer {
       height: 60vh;
   }
   .button {
+    margin-right:auto;
+    margin-left:auto;
       margin-top: -5%;
       position: relative;
       z-index: 10;       
