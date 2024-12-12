@@ -9,8 +9,8 @@
     "subdomain": "game"
 },{
     "name": "Frog Soup",
-    "subtitle": "Frog Soup is a game created with Bitsy.",
-    "github": ["https://github.com/ari-guzzi/ari-guzzi.github.io/blob/main/tinygames/frog-soup.html"],
+    "subtitle": "Frog Soup is a game created with Bitsy.org.",
+    "github": ["https://github.com/ari-guzzi/ari-guzzi.github.io/blob/main/projects/tinygames/frog-soup.html"],
     "video": "images/proj/frogsoup/frogsoup.mp4",
     "images": ["frogsoup/frogsoup1.png", "frogsoup/frogsoup2.png", "frogsoup/frogsoup3.png"],
     "button1": "tinygames/frog-soup.html",
@@ -18,7 +18,7 @@
 },{
     "name": "Dodge the Cracks",
     "subtitle": "Dodge the Cracks is a game created with Vanilla JavaScript, HTML, and CSS. It was inspired by the  game, Flappy Bird.",
-    "github": ["https://github.com/ari-guzzi/ari-guzzi.github.io/blob/main/tinygames/cargame/cargame.html"],
+    "github": ["https://github.com/ari-guzzi/ari-guzzi.github.io/tree/main/projects/tinygames/cargame"],
     "video": "images/proj/cargame/cargame.mp4",
     "images": ["cargame/cargame1.png"],
     "button1": "tinygames/cargame/cargame.html",
@@ -41,7 +41,7 @@
     "subdomain": "web"
 },{
     "name": "Zane McMorris Personal Portfolio",
-    "subtitle": "Zane McMorris is an electrical computer engineer at CU Boulder. He asked me to build him a personal portfolio where he can show off his projects.",
+    "subtitle": "Zane McMorris is an electrical computer engineer at CU Boulder. He asked me to build him a personal portfolio where he can show off his projects.  I used HTML, CSS, and Javascript to create this site.",
     "github": ["https://github.com/zanemcmorris/zanemcmorris.github.io"],
     "video": "images/proj/zane/zane.mp4",
     "images": ["zane/zane1.png","zane/zane2.png"],
@@ -96,17 +96,17 @@
 },
 {
     "name": "Chart Generator from Sheet",
-    "subtitle": "I used SvelteKit and Node.js to build this chart generator. I used Firebase to store user's data, and chart.js to convert the sheets to charts..",
+    "subtitle": "I used SvelteKit and Node.js to build this chart generator. I used Firebase to store user's data, and called chart.js to convert the sheets to charts.",
     "github": ["https://github.com/ari-guzzi/advweb/tree/main/project1"],
-    "video": "images/proj/appdes/appdes.mp4",
-    "images": ["appdes/appdes1.png","appdes/appdes2.png","appdes/appdes3.png","appdes/appdes4.png","appdes/appdes5.png"],
+    "video": "images/proj/charts/charts.mp4",
+    "images": ["charts/chart1.png","charts/chart2.png","charts/chart3.png"],
     "button1": "https://advanced-web-project1.web.app/",
     "subdomain": "webdev"
 },
 {
     "name": "React Meal Planner",
-    "subtitle": "I used SvelteKit and Node.js to build this chart generator. I used Firebase to store user's data, and chart.js to convert the sheets to charts..",
-    "github": ["https://github.com/ari-guzzi/advweb/tree/main/project1"],
+    "subtitle": "I used React.js to build this meal planner. The app allows users to input their meals and ingredients for the week and populate their meal plan with it with an easy drag and drop feature. I collabotated with Wolfgang Loudenburg to build this app.",
+    "github": ["https://github.com/WolfgangLoud/front-end-project-b"],
     "video": "images/proj/appdes/appdes.mp4",
     "images": ["appdes/appdes1.png","appdes/appdes2.png","appdes/appdes3.png","appdes/appdes4.png","appdes/appdes5.png"],
     "button1": "https://advanced-web-project1.web.app/",

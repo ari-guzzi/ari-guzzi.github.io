@@ -52,9 +52,8 @@ function parseData(projects) {
         dotsContainer.className = "dots-container";
 
         // Combine video and images for the slideshow
-        const media = [{ type: "video", src: project.video }].concat(
-            project.images.map(img => ({ type: "image", src: `images/proj/${img}` }))
-        );
+        const media = project.images.map(img => ({ type: "image", src: `images/proj/${img}` }))
+        .concat([{ type: "video", src: project.video }]);
 
         // Create slides and dots
         media.forEach((item, index) => {
