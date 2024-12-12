@@ -142,8 +142,10 @@ footer {
     padding-bottom: 1em;
     padding-left: 2em;
     padding-right: 2em;
-    margin-top: -40%;
+    margin-top: 10%;
     margin-bottom: 10%;
+    margin-right:auto;
+    margin-left:auto;
     font-size: calc(.9vw + .9vh + .9vmin);
   }
 
@@ -160,15 +162,13 @@ footer {
     max-width: auto;
     height: 60vh;
   }
-  .button {
-    margin-top: 10%;
-  }
 }
 @media screen and (max-height:700px) {
   video {
       height: 60vh;
   }
   .button {
+      margin-top: -5%;
       position: relative;
       z-index: 10;       
       margin-bottom: 5%;  
