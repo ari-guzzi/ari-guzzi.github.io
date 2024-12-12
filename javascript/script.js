@@ -66,7 +66,7 @@ function parseData(projects) {
                 slide.innerHTML = `<img src="${item.src}" style="width:100%">`;
             } else if (item.type === "video") {
                 slide.innerHTML = `
-                    <video controls autoplay muted style="width:100%">
+                    <video preload = "auto" controls autoplay muted style="width:100%">
                         <source src="${item.src}" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>`;

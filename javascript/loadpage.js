@@ -65,33 +65,33 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
 // fade code
-function initializeFadeIn() {
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('fade-in-view');
-      }
-    });
-  }, {
-    threshold: .5
-  });
+// function initializeFadeIn() {
+//   const observer = new IntersectionObserver(entries => {
+//     entries.forEach(entry => {
+//       if (entry.isIntersecting) {
+//         entry.target.classList.add('fade-in-view');
+//       }
+//     });
+//   }, {
+//     threshold: .5
+//   });
 
-  const sections = document.querySelectorAll('.fade-in-section');
-  sections.forEach(section => {
-    observer.observe(section);
-  });
-}
+//   const sections = document.querySelectorAll('.fade-in-section');
+//   sections.forEach(section => {
+//     observer.observe(section);
+//   });
+// }
 
-document.addEventListener('DOMContentLoaded', initializeFadeIn);
+// document.addEventListener('DOMContentLoaded', initializeFadeIn);
 
-function loadPage(page) {
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            document.body.innerHTML = this.responseText;
-            initializeFadeIn(); // Re-initialize fade-in effect
-        }
-    };
-    xhttp.open("GET", page + ".html", true);
-    xhttp.send();
-}
+// function loadPage(page) {
+//     var xhttp = new XMLHttpRequest();
+//     xhttp.onreadystatechange = function() {
+//         if (this.readyState == 4 && this.status == 200) {
+//             document.body.innerHTML = this.responseText;
+//             initializeFadeIn(); // Re-initialize fade-in effect
+//         }
+//     };
+//     xhttp.open("GET", page + ".html", true);
+//     xhttp.send();
+// }
