@@ -14,8 +14,8 @@
 .work-item {
   position: relative;
   margin: .8em;
-  flex-basis: 33.33%; 
-  max-width: 33.33%;
+  flex-basis: 25%; 
+  max-width: 25%;
   overflow: hidden; 
 }
 
