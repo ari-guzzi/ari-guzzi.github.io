@@ -1,0 +1,475 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: none;
+    background-color: lightblue;
+    
+  }
+  h1{
+    font-family: 'Western', sans-serif;
+    font-size: 3.1em;
+    text-align: center;
+    
+  }
+  h2{
+    margin-top: 1.5em;
+    text-align: center;
+  }
+  h2,h3{
+    font-family: 'Sofia Sans', sans-serif;
+    
+  }
+  h3{
+    margin-top:-1.4375rem;
+    text-align: center;
+    margin-right: 62.5rem;
+  }
+
+  h1, h2, h3 {
+    display: block !important;
+    position: relative;
+    z-index: 99;
+  }
+h4{
+  display: none;
+}
+  .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    }
+  
+/* AVATAR */
+
+#stick-figure {
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+  }
+  
+  .head {
+    width: 3.2em;
+    height: 3.2em;
+    border-radius: 50%;
+    background-color: black;
+  }
+  
+  .body {
+    width: .3em;
+    height: 5em;
+    background-color: black;
+    position: absolute;
+    top: 3.125rem;
+    left: 1.4375rem;
+  }
+  
+  .left-arm,
+  .right-arm,
+  .left-leg,
+  .right-leg {
+    width: 3.75em;
+    height: .3125em;
+    background-color: black;
+    position: absolute;
+  }
+  
+  .left-arm {
+    top: 4.5625em;
+    left: -1.875em;
+    transform-origin: top right;
+    transform: rotate(45deg);
+  }
+  
+  .right-arm {
+    top: 4.375em;
+    left: 1.5625em;
+    transform-origin: top left;
+  }
+  
+  .left-leg {
+    width: .3125em;
+    height: 3.75em;
+    background-color: black;
+    position: absolute;
+    top: 7.11rem;
+    left: -.4rem;
+    transform-origin: bottom;
+    transform: rotate(30deg);
+  }
+  
+  .right-leg {
+    width: .3125em;
+    height: 3.75em;
+    background-color: black;
+    position: absolute;
+    top: 7.11rem;
+    left: 3.2rem;
+    transform-origin: bottom;
+    transform: rotate(-30deg);
+  }
+
+
+
+.weapon {
+  position: absolute;
+  width: 6.25em; 
+  height: 3.125em;
+  background-image: url(weapon.jpg);
+  background-size: contain;
+  position: absolute;
+  top: 3.125rem;
+  left: 3.75rem;
+}
+
+/* Rotary Phone Decoration */
+.inner-circle {
+  width: 28.125rem;
+  height: 28.125rem;
+  border: .125rem solid gray;
+  transform: scale(.6);
+  border-radius: 50%;
+  position: absolute;
+  top: 10.625rem; 
+  left: 30.9375rem; 
+  z-index: 2;
+}
+
+.circle {
+  width: 28.125rem;
+  height: 28.125rem;
+  background-color: #fff;
+  opacity: 0.2;
+  border-radius: 50%;
+  position: absolute;
+  top: 10.625rem;
+  left: 30.9375rem; 
+  z-index: 2;
+}
+.phone-base {
+  width: 50rem;
+  height: 28.125rem;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+  background-color: #9bacb2;
+  position: absolute;
+  top: 10.625rem; 
+  left: 20rem;
+  z-index: 1;
+}
+
+.phone img{
+  transform: scale(1.2); /* Increase size by 20% */
+  position:absolute;
+  top: 3.125em;
+  left: 25rem;
+
+  z-index: 1;
+  opacity: 0.6;
+}
+
+  /* Balloons */
+
+  .balloon {
+    width: 3.125rem;
+    height: 3.125rem;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    z-index: 3;
+  }
+  
+  .rotate-animation {
+    animation: rotateBalloon 10s linear infinite; /* Rotate animation */
+  }
+  
+  @keyframes rotateBalloon {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  
+  .balloon-text {
+    font-size: 1.25rem;
+    z-index: 4;
+  }
+
+  /* cursor */
+  .cursor-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 999;
+  }
+  
+  .target-cursor {
+    width: 1.875rem;
+    height: 1.875rem;
+    border: 2px solid lightsalmon;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .vertical-line, .horizontal-line {
+    position: absolute;
+    background-color: lightsalmon;
+    z-index: 999;
+  }
+  
+  .vertical-line {
+    top: 50%;
+    left: 50%;
+    width: 2px;
+    height: 20px; 
+    margin-left: -.5px;
+    transform-origin: top;
+  }
+  
+  .horizontal-line {
+    top: 50%;
+    left: 50%;
+    height: .125em;
+    width: 1.25em;
+    margin-top: -.0625em;
+    transform-origin: left;
+  }
+  
+  /* shooting */
+
+  .ball {
+    position: absolute;
+    width: .625rem;
+    height: .625rem;
+    border-radius: 50%;
+    background-color: red;
+    z-index: 998;
+  }
+
+  .bottom-container {
+    position: fixed;
+    bottom: 1.25rem; 
+    left: 50%; 
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .number-display {
+    margin: 0 .3125rem; 
+    font-size: 5em;
+  }
+
+  /* Buttons */
+  .clear-button {
+    position: fixed;
+    bottom: 1.25rem;
+    right: 1.25rem;
+    
+    padding: 1.25rem 2.50rem;
+    background-color: lightcoral;
+    color: white;
+    border: none;
+    border-radius: .3125rem;
+    cursor: pointer;
+  }
+  .fake-clear-button {
+    padding: .625rem 1.25rem;
+    background-color: lightcoral;
+    color: white;
+    border: none;
+    border-radius: .3125rem;
+    cursor: pointer;
+  }
+  
+  .clear-button:hover {
+    background-color: red;
+  }
+
+  .fake-check{
+    padding: .5rem 1em;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: .3125em;
+    cursor: pointer;
+  }
+  .check {
+    position: fixed;
+    bottom: 1.1875rem;
+    right: 9.375rem;
+   
+    padding: 1.25rem 2.50rem;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: .3125rem;
+    cursor: pointer;
+  }
+
+  .check:hover {
+    background-color: darkgreen;
+  }
+
+/* popups */
+
+  .modal-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
+    justify-content: center;
+    align-items: center;
+    z-index: 400;
+  }
+  
+  .modal {
+    background-color: white;
+    padding: 1.25em;
+    border-radius: .3125em;
+    text-align: center;
+    z-index: 400;
+  }
+
+  .numbers-list {
+    display: flex;
+    flex-direction: row;
+    gap: .3125em; 
+    z-index: 400;
+  }
+
+  .new-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    width: 18.75;
+    margin: 6.25em auto;
+    padding: 1.25rem;
+    border-radius: .3125rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+   .container{
+    overflow: hidden;
+   }
+    .balloon {
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+    }
+    .balloon-text{
+      font-size: 1rem;
+    }
+    h2, h3{
+      display: none !important;
+      
+    }
+    h4{
+      display: contents;
+    }
+    
+    /* Rotary Phone Decoration */
+    .inner-circle {
+      width: 60%; 
+      height: 30%; 
+      top: 20%; 
+      left: 20%; 
+  }
+
+  .circle {
+      width: 60%; 
+      height: 30%; 
+      top: 20%; 
+      left: 20%; 
+  }
+
+  .phone-base {
+      width: 100%;
+      height: 30%; 
+      top: 20%; 
+      left: 0% !important;      
+      z-index: -1;
+  }
+  .phone{
+    width: 100%;
+  }
+  .phone img {
+    width: 100%; /* Make the image fill up the width of its container */
+    height: 40%;
+    left:0%;
+    top: 7%;
+  }
+  }
+
+  @media (max-width: 800px) and (max-height: 600px) {
+
+    h2, h3{
+      display: none !important;
+
+    }
+    h4{
+      display: contents;
+      margin: 0 0 0 20 !important;
+      
+    }
+
+    /* Rotary Phone Decoration */
+    .inner-circle {
+      position: relative;
+      width: 60%; 
+      height: 80%; 
+      transform: scale(0.6);
+      top: -5%; 
+      left: 20%; 
+  }
+
+  .circle {
+    position: relative;
+      width: 60%; 
+      height: 80%; 
+      top: -5%; 
+      left: 20%; 
+  }
+
+  .phone-base {
+    position: relative;
+      width: 90%;
+      height: 70%; 
+      top: -5%; 
+      left: 5%; 
+      z-index: -1;
+  }
+
+  .phone img {
+      top: 5%; 
+      left: 10%; 
+  }
+  }

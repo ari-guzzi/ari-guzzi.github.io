@@ -9,34 +9,20 @@
     <link rel="stylesheet" href="/../CSS/common.css">
     <link href='https://fonts.googleapis.com/css?family=Bodoni%20Moda' rel='stylesheet'>
 
-    <link rel="icon" type="image/x-icon" href="images/AG2LightPurple.png">
+    <link rel="icon" type="image/x-icon" href="images/logo/AG2LightPurple.png">
 </head>
 <body>
 
     <main class="color-block">
 
         <video id="videoPlayer" autoplay loop muted playsinline width="auto" height="500rem">
-            <source id="videoSource" src="images/logo.mp4" type="video/mp4">
+            <source id="videoSource" src="images/logo/logo.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <a href="myWork.html" onclick="loadPage('myWork')">
             <div id = "viewButton" class="button"><p>View Portfolio!</p></div></a>
     </main>
-
-  <footer>
-    <div class="contact-info">
-      <a href="mailto:acguzzi@comcast.net">acguzzi@comcast.net</a><br><br>
-      <a href="https://github.com/ari-guzzi" target="_blank" >Github</a>
-    </div>
-    <div class="centered-logo">
-        <img src = "images/AG2LightGrey.png" alt="Me">
-    </div>
-    <div class="links">
-        <a href="https://www.linkedin.com/in/arianna-guzzi/" target="_blank" >LinkedIn</a><br><br>
-        <a href="../images/resume.pdf" target="_blank">Resume</a>
-    </div>
-
-</footer>
+    <div id="footer-placeholder"></div>
 <script src="../javascript/loadpage.js"></script>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -46,85 +32,19 @@
             var videoSource = document.getElementById('videoSource');
 
             if (screenWidth < 768) {
-                videoSource.src = 'images/logo-small.mp4';
+                videoSource.src = 'images/logo/logo-small.mp4';
             } else {
-                videoSource.src = 'images/logo.mp4';
+                videoSource.src = 'images/logo/logo.mp4';
             }
 
             videoPlayer.load();
         }
 
-        // Run on initial load
         adjustVideoSource();
 
-        // Add event listener for window resize
         window.addEventListener('resize', adjustVideoSource);
     });
 </script>
 
-    </body>
-    
+</body>
 </html>
-
-    <!-- <h1>Ari Guzzi</h1>
-
-<div class="topnav">
-    <a class="active" href="/" onclick="loadPage('index')"> Home</a>
-    <a href="myWork.html" onclick="loadPage('myWork')" >My Work</a>
-    <a href="AboutMe.html" onclick="loadPage('AboutMe')">About Me</a>
-</div> -->
-
-<!-- <div class = "content">
-            <svg id="logoSVG" width="100%" height="auto" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <path id="topCurve" fill="transparent" d="M10,100 Q250,-70 490,100" />
-                <text fill="#BB9BB0" font-size="18">
-                    <textPath xlink:href="#topCurve" startOffset="50%" text-anchor="middle" dominant-baseline="hanging">
-                        Ari Guzzi
-                    </textPath>
-                </text>
-                <path id="bottomCurve" fill="transparent" d="M10,80 Q250,290 490,80" />
-                <text fill="#BB9BB0" font-size="18">
-                    <textPath xlink:href="#bottomCurve" startOffset="51%" text-anchor="middle" dominant-baseline="baseline">
-                        Front End Developer
-                    </textPath>
-                </text>
-            </svg>
-        </div>
-        <div class = "star"><img src = "images/AG2DarkPurpleOnlyStar.png"></div> -->
-
-        
-<!-- <script>
-function updatePath() {
-  var width = window.innerWidth;
-  var topPath = document.getElementById('topCurve');
-  var bottomPath = document.getElementById('bottomCurve');
-  var textElements = document.querySelectorAll('text'); // Select all text elements within the SVG
-
-  if (width < 768) {
-    // More pronounced curves and larger text for smaller screens
-    topPath.setAttribute('d', 'M10,120 Q250,-80 490,120'); // Moving the top path up
-    bottomPath.setAttribute('d', 'M-250,80 Q300,900 740,80'); // Moving the bottom path down
-    textElements.forEach(function(text) {
-      text.setAttribute('font-size', '50'); // Increase font size
-    });
-}
-//    else if (width>1330){
-//     topPath.setAttribute('d', 'M10,300 Q250,60 490,300');// really big width top path
-//     bottomPath.setAttribute('d', 'M10,80 Q250,580 490,80'); // really big width bottom path
-//     textElements.forEach(function(text) {
-//       text.setAttribute('font-size', '18'); // Original font size
-//     });
-//   } 
-else {
-    // Less pronounced curves and normal text size for larger screens
-    topPath.setAttribute('d', 'M10,300 Q250,40 490,300');// Original top path
-    bottomPath.setAttribute('d', 'M10,80 Q250,600 490,80'); // Original bottom path
-    textElements.forEach(function(text) {
-      text.setAttribute('font-size', '18'); // Original font size
-    });
-  }
-}
-
-window.addEventListener('resize', updatePath);
-document.addEventListener('DOMContentLoaded', updatePath);
-  </script> -->

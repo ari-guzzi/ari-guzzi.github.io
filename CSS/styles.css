@@ -35,10 +35,10 @@ body{
   }
 }
 video {
-  aspect-ratio: 16 / 9; /* Change according to your video's aspect ratio */
+  aspect-ratio: 16 / 9; 
   width: 100%;
   height: auto;
-  max-height: 540px; /* Or as per design needs */
+  max-height: 540px;
 }
 .content {
   margin-top:1%;
@@ -46,7 +46,6 @@ video {
   background: #F1E3E4 url("../images/AG2DarkPurpleNoStar.png") no-repeat center center;
   background-size: 25%;
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
   height: 60vh;
   text-align: center;
@@ -66,7 +65,7 @@ video {
  font-size: calc(1vw + 1vh + 1vmin);
  width: 20vw;
  font-family: 'Bodoni Moda';
- animation: blinking 1s infinite alternate;
+ animation: blinking 1.5s infinite alternate;
  padding:0;
 }
 #viewButton p{
@@ -110,7 +109,6 @@ h5{
   text-align: center;
   font-size: 2em;
   color: #F1E3E4;
-  /* margin: 0 0 5% 25%; */
   font-family: 'Bodoni Moda';
 }
 
@@ -140,7 +138,10 @@ footer {
   }
   .button{
     font-size: 2em;
-    /* margin: 0 0 10% 20%;  */
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
     margin-top: -40%;
     margin-bottom: 10%;
     font-size: calc(.9vw + .9vh + .9vmin);
@@ -156,8 +157,8 @@ footer {
     overflow: none;
   }
   video {
-    max-width: 100%;
-    height: auto;
+    max-width: auto;
+    height: 60vh;
   }
   .button {
     margin-top: 10%;
@@ -165,14 +166,12 @@ footer {
 }
 @media screen and (max-height:700px) {
   video {
-      height: 50%; /* Maintain the aspect ratio */
+      height: 60vh;
   }
-
-  /* Ensure the button remains visible above the footer */
   .button {
-      position: relative; /* Adjust positioning if necessary */
-      z-index: 10;        /* Ensure it's above other content */
-      margin-bottom: 5%;  /* Give some space below before the footer starts */
+      position: relative;
+      z-index: 10;       
+      margin-bottom: 5%;  
   }
 
  

@@ -1,3 +1,7 @@
+.work-item img, .work-item .label {
+  transform: scale(0.9); 
+  transform-origin: center; 
+}
 .work-gallery {
   display: flex;
   flex-wrap: wrap;
@@ -6,36 +10,47 @@
 }
 
 .work-item {
-  margin: 1em;
-  flex-basis: 33.33%; /* Set to 33.33% for three items per line */
-  max-width: 400rem; 
+  position: relative;
+  margin: .8em;
+  flex-basis: 33.33%; 
+  max-width: 33.33%;
+  overflow: hidden; 
 }
 
 .work-item img {
-  max-width: 80%;
+  width: 100%;
   height: auto;
+  transition: transform 0.3s ease; 
 }
-  
+
+.work-item .label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  color: black; 
+  text-align: center;
+  font-size: 3em;
+  padding: 1em 0; 
+  transition: background-color 0.3s ease; 
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+.work-item:hover .label {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.work-item:hover img {
+  transform: scale(1.1); 
+  border-radius: 3rem;
+}
+
 h2 {
   text-align: center;
   font-size: 2.7em;
 }
-
-.work-gallery > img {
- max-width: 0;
-  height: 0;
-  min-height: 100%;
-  min-width: 100%;
-  object-fit: cover;
-  cursor: pointer;
-}
-
-.work-gallery img:hover{
-box-shadow: 1rem 1rem .5rem #000000;
--moz-box-shadow: 0rem 1rem .5rem #000000;
--webkit-box-shadow: 0rem 1rem .5rem #000000; 
-}
-
 .round-img{
   border-radius: 3rem;
   max-width:40rem;
@@ -44,8 +59,17 @@ box-shadow: 1rem 1rem .5rem #000000;
 
 @media (max-width: 768px) {
   .work-item {
-    margin: 1em;
-    flex-basis: 330%; /* Set to 33.33% for three items per line */
-    max-width: 50rem; /* Adjust as needed */
+    margin: 0.5em;
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  .work-item img {
+    width: 100%;
+  }
+  .work-item .label {
+    font-size: 1.5em;
+    padding: 1em 0; 
+
   }
 }

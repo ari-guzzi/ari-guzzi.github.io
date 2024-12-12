@@ -3,51 +3,114 @@
     "name": "Bayou Bolt",
     "subtitle": "Bayou Bolt is a New Orleans themed 2D scrolling jumping platform tiny game. It is coded in Lua and designed with Pico-8 for its sprite and map editor.",
     "github": "https://github.com/ari-guzzi/tinygamesfinal/blob/main/final.lua",
-    "video": "images/My Work/web/tinygame2.mp4",
-    "images": ["bayoubolt1.png", "bayoubolt2.png", "bayoubolt3.png", "bayoubolt4.png"],
-    "button1": "tinygames/final.html",
+    "video": "images/proj/bayouBolt/tinygame2.mp4",
+    "images": ["bayouBolt/bayoubolt1.png", "bayouBolt/bayoubolt2.png", "bayouBolt/bayoubolt3.png", "bayouBolt/bayoubolt4.png"],
+    "button1": "projects/tinygames/final.html",
     "subdomain": "game"
 },{
     "name": "Frog Soup",
     "subtitle": "Frog Soup is a game created with Bitsy.",
     "github": ["https://github.com/ari-guzzi/ari-guzzi.github.io/blob/main/tinygames/frog-soup.html"],
-    "video": "images/My Work/web/frogsoup.mp4",
-    "images": ["frogsoup1.png", "frogsoup2.png", "frogsoup3.png"],
+    "video": "images/proj/frogsoup/frogsoup.mp4",
+    "images": ["frogsoup/frogsoup1.png", "frogsoup/frogsoup2.png", "frogsoup/frogsoup3.png"],
     "button1": "tinygames/frog-soup.html",
     "subdomain": "game"
 },{
     "name": "Dodge the Cracks",
     "subtitle": "Dodge the Cracks is a game created with Vanilla JavaScript, HTML, and CSS. It was inspired by the  game, Flappy Bird.",
     "github": ["https://github.com/ari-guzzi/ari-guzzi.github.io/blob/main/tinygames/cargame/cargame.html"],
-    "video": "images/My Work/web/cargame.mp4",
-    "images": ["cargame1.png"],
+    "video": "images/proj/cargame/cargame.mp4",
+    "images": ["cargame/cargame1.png"],
     "button1": "tinygames/cargame/cargame.html",
     "subdomain": "game"
 },{
     "name": "Frustrating Phone Number Enter-er",
     "subtitle": "This frustrating, but functional, phone number enter-er was built with HTML, CSS, and Javascript. It was inspired by combining the concepts of Wild-West carnival games and rotary phones into one shooting game.",
     "github": ["https://github.com/ari-guzzi/ari-guzzi.github.io/blob/main/JSFinal/JSfinal.html"],
-    "video": "images/My Work/web/jsfinal5.mp4",
-    "images": ["frustratingphonenumber1.png","frustratingphonenumber2.png"],
-    "button1": "../JSFinal/JSfinal.html",
+    "video": "images/proj/frustratingphone/jsfinal5.mp4",
+    "images": ["frustratingphone/frustratingphonenumber1.png","frustratingphone/frustratingphonenumber2.png"],
+    "button1": "../projects/webdesign/JSFinal/JSfinal.html",
     "subdomain": "web"
 },{
     "name": "CRyder and Dirty Beets Informational Webpage",
     "subtitle": "CRyder and Dirty Beets is a local band in Colorado. They asked me to build them an informational webpage. I used HTML, CSS, and Javascript to create this site. I conducted UX Research to determine the best layout and design for their site and branding.",
     "github": ["https://github.com/CCRyderDirtyBeets/CCRyderDirtyBeets"],
-    "video": "images/My Work/web/dirtybeets.mp4",
-    "images": ["dirtybeets1.png","dirtybeets2.png"],
+    "video": "images/proj/dirtybeets/dirtybeets.mp4",
+    "images": ["dirtybeets/dirtybeets1.png","dirtybeets/dirtybeets2.png"],
     "button1": "https://ccryderanddirtybeets.com",
     "subdomain": "web"
 },{
     "name": "Zane McMorris Personal Portfolio",
     "subtitle": "Zane McMorris is an electrical computer engineer at CU Boulder. He asked me to build him a personal portfolio where he can show off his projects.",
     "github": ["https://github.com/zanemcmorris/zanemcmorris.github.io"],
-    "video": "images/My Work/web/zane.mp4",
-    "images": ["zane1.png","zane2.png"],
+    "video": "images/proj/zane/zane.mp4",
+    "images": ["zane/zane1.png","zane/zane2.png"],
     "button1": "https://zanemcmorris.github.io/",
     "subdomain": "web"
-}
+},
 
+{ 
+    "name": "Recipe Search + Grocery List App",
+    "subtitle": "This app allows its users to search Spoonacular's API and find recipes. The user can add the ingredients from the recipe to their grocery list and mark when completed. They can also delete items from their grocery list. The grocery list is stored in Swift Data. The app also has a widget that allows the user to open the grocery list directly.",
+    "github": ["https://github.com/ATLS4120/framework-based-app-ari-guzzi"],
+    "video": "images/proj/frameworkapp/framwork_apiapp.mp4",
+    "images": ["frameworkapp/frameworkapp1.png","frameworkapp/framworkapp2.png","frameworkapp/framworkapp3.png","frameworkapp/framworkapp4.png"],
+    "button1": "https://zanemcmorris.github.io/",
+    "subdomain": "appdev"
+},
+{
+    "name": "Dinosaur Calculation App",
+    "subtitle": "DinoMatch is an app to compare your height and speed to a dinosaur. You can also take the dinosaur personality quiz to see which dinosaur you are most like. The app was built with Swift and Xcode.",
+    "github": ["https://github.com/ATLS4120/calculation-app-ari-guzzi"],
+    "video": "images/proj/calculationapp/calculationapp.mp4",
+    "images": ["calculationapp/calcapp1.png","calculationapp/calcapp2.png","calculationapp/calcapp3.png","calculationapp/calcapp4.png","calculationapp/calcapp5.png"],
+    "button1": "https://zanemcmorris.github.io/",
+    "subdomain": "appdev"
+},
+{
+    "name": "Natural Highs App Prototype",
+    "subtitle": "One of the projects I have been working on is a prototype app for Natural Highs, a nonprofit organization dedicated to teaching healthy alternatives to substances. I utilized Figma to make the prototype. <br> <br> The app is a social media page for the nonprofit. You create an account where you input your information and demographics. When you sign up, you automatically follow all the main pages (Boulder, Canada, Australia) and all the registered peer mentors from your community. After signing in, the app automatically loads the feed page. From there, you can navigate throughout the app. There is an events page where you can scan a QR code to check in for each event. After checking in, users are asked to fill out a survey with the information needed for Natural Highs to apply for grants. The app has a database holding the demographics of each user along with their answers to surveys.",
+    "github": ["https://github.com/ari-guzzi"],
+    "video": "images/proj/appdes/appdes.mp4",
+    "images": ["appdes/appdes1.png","appdes/appdes2.png","appdes/appdes3.png","appdes/appdes4.png","appdes/appdes5.png"],
+    "button1": "https://www.figma.com/proto/CTIZGF8RhZdEq4cYmy7d2B/Natural-Highs?type=design&node-id=2-1793&t=RubuUGjUbmpurM2Q-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A1793&mode=design",
+    "subdomain": "appdes"
+},
+{
+    "name": "Martian Shooter",
+    "subtitle": "I developed a VR shooting game with Unity, C#, and Meta Quest 3 goggles.",
+    "github": ["https://github.com/ari-guzzi/introVR"],
+    "video": "images/proj/VRProf1/finalVRProject1.mp4",
+    "images": ["VRProf1/vrdev1","VRProf1/vrdev2","VRProf1/vrdev3","VRProf1/vrdev4"],
+    "button1": "https://www.figma.com/proto/CTIZGF8RhZdEq4cYmy7d2B/Natural-Highs?type=design&node-id=2-1793&t=RubuUGjUbmpurM2Q-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A1793&mode=design",
+    "subdomain": "vrdev"
+},
+{
+    "name": "Martian Shooter",
+    "subtitle": "I developed a VR shooting game with Unity, C#, and Meta Quest 3 goggles.",
+    "github": ["https://github.com/ari-guzzi/VRFinal"],
+    "video": "images/proj/VRProf1/finalVRProject1.mp4",
+    "images": ["VRProf1/vrdev1","VRProf1/vrdev2","VRProf1/vrdev3","VRProf1/vrdev4"],
+    "button1": "https://www.figma.com/proto/CTIZGF8RhZdEq4cYmy7d2B/Natural-Highs?type=design&node-id=2-1793&t=RubuUGjUbmpurM2Q-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A1793&mode=design",
+    "subdomain": "vrdev"
+},
+{
+    "name": "Chart Generator from Sheet",
+    "subtitle": "I used SvelteKit and Node.js to build this chart generator. I used Firebase to store user's data, and chart.js to convert the sheets to charts..",
+    "github": ["https://github.com/ari-guzzi/advweb/tree/main/project1"],
+    "video": "images/proj/appdes/appdes.mp4",
+    "images": ["appdes/appdes1.png","appdes/appdes2.png","appdes/appdes3.png","appdes/appdes4.png","appdes/appdes5.png"],
+    "button1": "https://advanced-web-project1.web.app/",
+    "subdomain": "webdev"
+},
+{
+    "name": "React Meal Planner",
+    "subtitle": "I used SvelteKit and Node.js to build this chart generator. I used Firebase to store user's data, and chart.js to convert the sheets to charts..",
+    "github": ["https://github.com/ari-guzzi/advweb/tree/main/project1"],
+    "video": "images/proj/appdes/appdes.mp4",
+    "images": ["appdes/appdes1.png","appdes/appdes2.png","appdes/appdes3.png","appdes/appdes4.png","appdes/appdes5.png"],
+    "button1": "https://advanced-web-project1.web.app/",
+    "subdomain": "webdev"
+}
 ]
 }
