@@ -9,7 +9,9 @@
     flex-wrap: wrap;
     margin-bottom: 40px;
 }
-
+.left p {
+    text-align: left;
+}
 .left, .right {
     flex: 1;
     padding: 10px;
@@ -24,16 +26,42 @@ video {
     max-width: 100%;
     height: auto;
 }
+a {
+    text-decoration: none; 
+}
 .button1 {
+    color: #F1E3E4;
     background: #A288A6;
+    font-size: 20px;
+}
+.button1 p {
+    font-family: 'Bodoni Moda';
+}
+.button2 {
+    color: #A288A6;
+    background: #F1E3E4;
+    border: #BB9BB0 2px solid !important;
+    box-sizing: border-box;
+    font-size: 1.5em !important;
+}
+
+.button-image {
+    height: 2em;
+    margin-right: 8px; 
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.button1, .button2 {
+    font-family: 'Bodoni Moda' !important;
+    margin: 1em auto;
+    display: block;
     border-radius: 999px;
     box-shadow: #A288A6 0 10px 20px -10px;
     box-sizing: border-box;
-    color: #F1E3E4;
     cursor: pointer;
-    font-size: 20px;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 2em;
     opacity: 1;
     outline: 0 solid transparent;
     padding: 8px 18px;
@@ -44,7 +72,10 @@ video {
     word-break: break-word;
     border: 0;
   }
-
+    .button1:hover,.button2:hover {
+        color: #F1E3E4;
+        background: #BB9BB0;
+    }
   .mySlides {
     display: none;
 }
@@ -88,7 +119,8 @@ video {
     background-color: #717171;
 }
 .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(255, 255, 255, 0.7);
+    ;
   }
   @media screen and (max-width: 1075px) {
     .row {
@@ -100,4 +132,8 @@ video {
         flex: unset; 
         max-width: 100vw; 
     }
+}
+.slideshow-container:hover .prev,
+.slideshow-container:hover .next {
+    background-color: rgba(255, 255, 255, 0.7); /* White with transparency */
 }

@@ -1,7 +1,7 @@
 { 
 "projects": [{
     "name": "Bayou Bolt",
-    "subtitle": "Bayou Bolt is a New Orleans themed 2D scrolling jumping platform tiny game. It is coded in Lua and designed with Pico-8 for its sprite and map editor.",
+    "subtitle": "Bayou Bolt is a New Orleans themed 2D scrolling jumping platform tiny game. It is inspired by Super Mario. Bayou Bolt is coded in Lua and designed with Pico-8 for its sprite and map editor.",
     "github": "https://github.com/ari-guzzi/tinygamesfinal/blob/main/final.lua",
     "video": "images/proj/bayouBolt/tinygame2.mp4",
     "images": ["bayouBolt/bayoubolt1.png", "bayouBolt/bayoubolt2.png", "bayouBolt/bayoubolt3.png", "bayouBolt/bayoubolt4.png"],
@@ -55,7 +55,7 @@
     "github": ["https://github.com/ATLS4120/framework-based-app-ari-guzzi"],
     "video": "images/proj/frameworkapp/framwork_apiapp.mp4",
     "images": ["frameworkapp/frameworkapp1.png","frameworkapp/framworkapp2.png","frameworkapp/framworkapp3.png","frameworkapp/framworkapp4.png"],
-    "button1": "https://zanemcmorris.github.io/",
+    "button1": "https://youtu.be/nzwjpKJAxqE",
     "subdomain": "appdev"
 },
 {
@@ -64,7 +64,7 @@
     "github": ["https://github.com/ATLS4120/calculation-app-ari-guzzi"],
     "video": "images/proj/calculationapp/calculationapp.mp4",
     "images": ["calculationapp/calcapp1.png","calculationapp/calcapp2.png","calculationapp/calcapp3.png","calculationapp/calcapp4.png","calculationapp/calcapp5.png"],
-    "button1": "https://zanemcmorris.github.io/",
+    "button1": "https://youtu.be/MGkdh1eF858",
     "subdomain": "appdev"
 },
 {
@@ -77,6 +77,15 @@
     "subdomain": "appdes"
 },
 {
+    "name": "Wonderland Mirror-Puzzle Maze",
+    "subtitle": "I developed a VR puzzle maze, inspired by the Queen of Heart's maze and palace from Alice in Wonderland. I was inspired by Portal. I used Unity, C#, and a Meta Quest 3.",
+    "github": ["https://github.com/ari-guzzi/VRFinal"],
+    "video": "/images/proj/VRFinal/vrfinal.mp4",
+    "images": ["VRFinal/vrfinal1.png","VRFinal/vrfinal2.png","VRFinal/vrfinal3.png"],
+    "button1": "https://www.figma.com/proto/CTIZGF8RhZdEq4cYmy7d2B/Natural-Highs?type=design&node-id=2-1793&t=RubuUGjUbmpurM2Q-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A1793&mode=design",
+    "subdomain": "vrdev"
+},
+{
     "name": "Martian Shooter",
     "subtitle": "I developed a VR shooting game with Unity, C#, and a Meta Quest 3.",
     "github": ["https://github.com/ari-guzzi/introVR"],
@@ -86,17 +95,8 @@
     "subdomain": "vrdev"
 },
 {
-    "name": "Puzzle Maze",
-    "subtitle": "I developed a VR puzzle maze, inspired by Alice in Wonderland. I used Unity, C#, and a Meta Quest 3.",
-    "github": ["https://github.com/ari-guzzi/VRFinal"],
-    "video": "/images/proj/VRFinal/vrfinal.mp4",
-    "images": ["VRFinal/vrfinal1.png","VRFinal/vrfinal2.png","VRFinal/vrfinal3.png"],
-    "button1": "https://www.figma.com/proto/CTIZGF8RhZdEq4cYmy7d2B/Natural-Highs?type=design&node-id=2-1793&t=RubuUGjUbmpurM2Q-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A1793&mode=design",
-    "subdomain": "vrdev"
-},
-{
     "name": "Chart Generator from Spreadsheet",
-    "subtitle": "I used SvelteKit and Node.js to build this chart generator. I used Firebase to store user's data, and called chart.js to convert the spreadsheets to charts.",
+    "subtitle": "I developed this website to generate a chart with data from an uploaded spreadsheet. I used Svelte and Node.js to build this chart generator. I used Firebase to store user's login credentials and uploaded files. I called chart.js to convert the spreadsheets to charts.",
     "github": ["https://github.com/ari-guzzi/advweb/tree/main/project1"],
     "video": "images/proj/charts/charts.mp4",
     "images": ["charts/chart1.png","charts/chart2.png","charts/chart3.png"],
@@ -105,7 +105,7 @@
 },
 {
     "name": "React.js Meal Planner",
-    "subtitle": "I used React.js to build this meal planner. The app allows users to input their meals and ingredients for the week and populate their meal plan with it with an easy drag and drop feature. I collabotated with Wolfgang Loudenburg to build this app.",
+    "subtitle": "I used React.js to build a meal planner. The app allows users to input their meals and ingredients for the week and populate their meal plan with it with an easy drag and drop feature. I collabotated with Wolfgang Loudenburg to build this app.",
     "github": ["https://github.com/WolfgangLoud/front-end-project-b"],
     "video": "images/proj/mealplanner/mealplanner.mp4",
     "images": ["mealplanner/mealplanner1.png","mealplanner/mealplanner2.png"],

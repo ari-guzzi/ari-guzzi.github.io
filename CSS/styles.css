@@ -54,6 +54,9 @@ video {
   z-index: 0;
   margin-bottom: 2em;
 }
+.button p {
+  font-family: 'Bodoni Moda';
+}
 .button{
   display: flex;
   margin-top: -.5%; 
@@ -65,7 +68,7 @@ video {
  font-size: calc(1vw + 1vh + 1vmin);
  width: 20vw;
  font-family: 'Bodoni Moda';
- animation: blinking 1.5s infinite alternate;
+ animation: blinking 2s infinite alternate;
  padding:0;
 }
 #viewButton p{

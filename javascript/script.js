@@ -16,8 +16,7 @@ function filterProjects(data) {
     const currentPage = window.location.pathname.split('/').pop(); // Extracts filename from URL path
     const subdomain = currentPage.replace('.html', ''); // Removes the .html extension to match the subdomain
 
-    // Filter projects based on subdomain
-    const filteredProjects = data.projects.filter(project => project.subdomain === subdomain);
+    const filteredProjects = data.projects.filter(project => project.subdomain === subdomain);  // Filter projects based on subdomain
 
     parseData({ projects: filteredProjects });
 }
@@ -34,10 +33,19 @@ function parseData(projects) {
         const leftDiv = document.createElement("div");
         leftDiv.className = "left";
         leftDiv.innerHTML = `
-            <h2>${project.name}</h2>
+            <h5>${project.name}</h5>
             <p>${project.subtitle}</p>
-            <p><a href="${project.github}" target="_blank">GitHub Repository</a></p>
-            <a class="button1" href="${project.button1}" target="_blank">View Project</a>
+            
+            <a href="${project.github}" onclick="loadPage('${project.github}')">
+                <div class="button2">
+                    <img src="images/logo/github.png" alt="GitHub Logo" class="button-image">
+                    <span>View GitHub Repository!</span>
+                </div>
+            </a>
+            <br>
+             <a href="${project.button1}" onclick="loadPage("${project.button1}")">
+                <div class="button1"><p>View Project!</p></div></a>
+           
         `;
 
         // Right side: Video and image slideshow
@@ -52,12 +60,11 @@ function parseData(projects) {
         dotsContainer.className = "dots-container";
 
         // Combine video and images for the slideshow
-        const media = project.images.map(img => ({ type: "image", src: `images/proj/${img}` }))
-        .concat([{ type: "video", src: project.video }]);
+        const media = [{ type: "video", src: project.video }]
+        .concat(project.images.map(img => ({ type: "image", src: `images/proj/${img}` })));
 
         // Create slides and dots
         media.forEach((item, index) => {
-            // Create slide
             const slide = document.createElement("div");
             slide.className = "mySlides fade";
             slide.style.display = index === 0 ? "block" : "none"; // Show the first slide initially
