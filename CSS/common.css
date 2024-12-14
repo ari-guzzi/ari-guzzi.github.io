@@ -74,7 +74,7 @@
           }
 
           h2 {
-            font-size: 1.7em;
+            font-size: 1.7em !important;
             font-family: 'Bodoni Moda';
             text-align: center;
             
@@ -86,11 +86,11 @@
           h4{
             text-align: center;
             font-size: 2.7em;
-            margin-bottom: -.1rem;
           }
           h5 {
             text-align: center;
-            font-size: 1.5em;
+            font-size: 1.5em !important;
+           margin-bottom: -.1rem;
           }
 
        /***********
