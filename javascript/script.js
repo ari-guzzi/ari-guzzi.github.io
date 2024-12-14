@@ -70,7 +70,14 @@ function parseData(projects) {
             slide.style.display = index === 0 ? "block" : "none"; // Show the first slide initially
 
             if (item.type === "image") {
-                slide.innerHTML = `<img src="${item.src}" style="width:100%">`;
+                const img = document.createElement("img");
+                img.src = item.src;
+                img.style.width = "100%";
+                img.style.cursor = "pointer";
+                img.addEventListener("click", () => {
+                    window.location.href = project.button1; // Redirect to the project link
+                });
+                slide.appendChild(img);
             } else if (item.type === "video") {
                 slide.innerHTML = `
                     <video preload = "auto" controls autoplay muted style="width:100%">
