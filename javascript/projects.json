@@ -52,7 +52,7 @@
 { 
     "name": "Recipe Search + Grocery List App",
     "subtitle": "This app allows its users to search Spoonacular's API and find recipes. The user can add the ingredients from the recipe to their grocery list and mark when completed. They can also delete items from their grocery list. The grocery list is stored in Swift Data. The app also has a widget that allows the user to open the grocery list directly.",
-    "github": ["https://github.com/ATLS4120/framework-based-app-ari-guzzi"],
+    "github": ["https://github.com/ari-guzzi/mobileappdev/tree/main/GroceryListApp"],
     "video": "images/proj/frameworkapp/framwork_apiapp.mp4",
     "images": ["frameworkapp/frameworkapp1.png","frameworkapp/framworkapp2.png","frameworkapp/framworkapp3.png","frameworkapp/framworkapp4.png"],
     "button1": "https://youtu.be/nzwjpKJAxqE",
@@ -61,7 +61,7 @@
 {
     "name": "Dinosaur Calculation App",
     "subtitle": "DinoMatch is an app to compare your height and speed to a dinosaur. You can also take the dinosaur personality quiz to see which dinosaur you are most like. The app was built with Swift and Xcode.",
-    "github": ["https://github.com/ATLS4120/calculation-app-ari-guzzi"],
+    "github": ["https://github.com/ari-guzzi/mobileappdev/tree/main/DinoMatch"],
     "video": "images/proj/calculationapp/calculationapp.mp4",
     "images": ["calculationapp/calcapp1.png","calculationapp/calcapp2.png","calculationapp/calcapp3.png","calculationapp/calcapp4.png","calculationapp/calcapp5.png"],
     "button1": "https://youtu.be/MGkdh1eF858",
