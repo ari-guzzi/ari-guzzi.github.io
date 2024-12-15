@@ -96,7 +96,7 @@
 },
 {
     "name": "Chart Generator from Spreadsheet",
-    "subtitle": "I developed this website to generate a chart with data from an uploaded spreadsheet. I used Svelte and Next.js to build this chart generator. I used Firebase to store user's login credentials and uploaded files. I called chart.js to convert the spreadsheets to charts.",
+    "subtitle": "I developed this website to generate a chart with data from an uploaded spreadsheet. I used Sveltekit and Next.js to build this chart generator. I used Firebase to store user's login credentials and uploaded files. I called chart.js to convert the spreadsheets to charts.",
     "github": ["https://github.com/ari-guzzi/advweb/tree/main/project1"],
     "video": "images/proj/charts/charts.mp4",
     "images": ["charts/chart1.png","charts/chart2.png","charts/chart3.png"],
