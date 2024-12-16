@@ -1,7 +1,7 @@
 { 
 "projects": [{
     "name": "Bayou Bolt",
-    "subtitle": "Bayou Bolt is a New Orleans themed 2D scrolling jumping platform tiny game. It is inspired by Super Mario. Bayou Bolt is coded in Lua and designed with Pico-8 for its sprite and map editor.",
+    "subtitle": "Bayou Bolt is a New Orleans themed 2D scrolling jumping platform tiny game. It is influenced by Super Mario. Bayou Bolt is coded in Lua and designed with Pico-8 for its sprite and map editor.",
     "github": "https://github.com/ari-guzzi/tinygamesfinal/blob/main/final.lua",
     "video": "images/proj/bayouBolt/tinygame2.mp4",
     "images": ["bayouBolt/bayoubolt1.png", "bayouBolt/bayoubolt2.png", "bayouBolt/bayoubolt3.png", "bayouBolt/bayoubolt4.png"],
@@ -33,7 +33,7 @@
     "subdomain": "web"
 },{
     "name": "CRyder and Dirty Beets Informational Webpage",
-    "subtitle": "CRyder and Dirty Beets is a local band in Colorado. They asked me to build them an informational webpage. I used HTML, CSS, and Javascript to create this site. I conducted UX Research to determine the best layout and design for their site and branding.",
+    "subtitle": "CRyder and Dirty Beets is a local band in Colorado. They asked me to build a webpage highlighting the band's musical style and accomplishments. I used HTML, CSS, and Javascript to create this site. I conducted UX Research to determine the best layout and design for their site and branding.",
     "github": ["https://github.com/CCRyderDirtyBeets/CCRyderDirtyBeets"],
     "video": "images/proj/dirtybeets/dirtybeets.mp4",
     "images": ["dirtybeets/dirtybeets1.png","dirtybeets/dirtybeets2.png"],
@@ -51,7 +51,7 @@
 
 { 
     "name": "Recipe Search + Grocery List App",
-    "subtitle": "This app allows its users to search Spoonacular's API and find recipes. The user can add the ingredients from the recipe to their grocery list and mark when completed. They can also delete items from their grocery list. The grocery list is stored in Swift Data. The app also has a widget that allows the user to open the grocery list directly.",
+    "subtitle": "This app employs the Spoonacular's API to search for recipes. The user can add the ingredients from the recipe to their grocery list and mark them off when completed. They can also delete items from their grocery list. The grocery list is stored in Swift Data. It also has an iOS widget built with WidgetKit that allows the user to easily navigate to their grocerylist.",
     "github": ["https://github.com/ari-guzzi/mobileappdev/tree/main/GroceryListApp"],
     "video": "images/proj/frameworkapp/framwork_apiapp.mp4",
     "images": ["frameworkapp/frameworkapp1.png","frameworkapp/framworkapp2.png","frameworkapp/framworkapp3.png","frameworkapp/framworkapp4.png"],
@@ -60,7 +60,7 @@
 },
 {
     "name": "Dinosaur Calculation App",
-    "subtitle": "DinoMatch is an app to compare your height and speed to a dinosaur. You can also take the dinosaur personality quiz to see which dinosaur you are most like. The app was built with Swift and Xcode.",
+    "subtitle": "DinoMatch is an app that allows users to compare their height and speed to that of a dinosaur. They can also take the dinosaur personality quiz to see which dinosaur most closely matches their personality. The app was built with Swift and Xcode.",
     "github": ["https://github.com/ari-guzzi/mobileappdev/tree/main/DinoMatch"],
     "video": "images/proj/calculationapp/calculationapp.mp4",
     "images": ["calculationapp/calcapp1.png","calculationapp/calcapp2.png","calculationapp/calcapp3.png","calculationapp/calcapp4.png","calculationapp/calcapp5.png"],
@@ -78,7 +78,7 @@
 },
 {
     "name": "Wonderland Mirror-Puzzle Maze",
-    "subtitle": "I developed a VR puzzle maze, inspired by the Queen of Heart's maze and palace from Alice in Wonderland. I was inspired by Portal. I used Unity, C#, and a Meta Quest 3.",
+    "subtitle": "I developed a VR puzzle maze. The theme was inspired by the Queen of Heart's maze and palace from Alice in Wonderland. My puzzle features were inspired by Portal. I used Unity, C#, and a Meta Quest 3.",
     "github": ["https://github.com/ari-guzzi/VRFinal"],
     "video": "/images/proj/VRFinal/vrfinal.mp4",
     "images": ["VRFinal/vrfinal1.png","VRFinal/vrfinal2.png","VRFinal/vrfinal3.png"],
@@ -96,7 +96,7 @@
 },
 {
     "name": "Chart Generator from Spreadsheet",
-    "subtitle": "I developed this website to generate a chart with data from an uploaded spreadsheet. I used Sveltekit and Next.js to build this chart generator. I used Firebase to store user's login credentials and uploaded files. I called chart.js to convert the spreadsheets to charts.",
+    "subtitle": "I developed this web-app to generate charts using data from uploaded spreadsheets. I used Sveltekit and Next.js to build this chart generator.  Firebase stores user's login credentials and uploaded files. Chart.js converts the spreadsheets to charts.",
     "github": ["https://github.com/ari-guzzi/advweb/tree/main/project1"],
     "video": "images/proj/charts/charts.mp4",
     "images": ["charts/chart1.png","charts/chart2.png","charts/chart3.png"],
@@ -105,7 +105,7 @@
 },
 {
     "name": "React.js Meal Planner",
-    "subtitle": "I used React.js to build a meal planner. The app allows users to input their meals and ingredients for the week and populate their meal plan with it with an easy drag and drop feature. I collabotated with Wolfgang Loudenburg to build this app.",
+    "subtitle": "This React.js web-app allows users to input their meals and ingredients for the week and populate their meal plan with an easy drag and drop feature. I collaborated with Wolfgang Loudenburg to build this app.",
     "github": ["https://github.com/WolfgangLoud/front-end-project-b"],
     "video": "images/proj/mealplanner/mealplanner.mp4",
     "images": ["mealplanner/mealplanner1.png","mealplanner/mealplanner2.png"],
