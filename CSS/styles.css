@@ -58,12 +58,27 @@ video {
 .button p {
   font-family: 'Bodoni Moda';
 }
-.button{
+.button {
+  border: #BB9BB0 0.5px solid !important;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em auto; /* Centers the button */
+  background-color: #F1E3E4;
+  color: #BB9BB0;
+  font-size: calc(1vw + 1vh + 1vmin);
+  animation: blinking 2s infinite alternate;
+  max-width: 20vw; /* Limits button size on large screens */
+  min-width: 10rem; /* Ensures minimum size on small screens */
+  width: 50%; /* Relative width */
+  padding: 0; /* Consistent padding */
+}
+/* .button{
   border: #BB9BB0 .5px solid !important;
     box-sizing: border-box;
   display: flex;
   margin-top: -.25%; 
-   
   margin-right: 40vw;
   margin-left: 40vw;
   background-color:#F1E3E4;
@@ -74,7 +89,7 @@ video {
  font-family: 'Bodoni Moda';
  animation: blinking 2s infinite alternate;
  padding:0;
-}
+} */
 #viewButton p{
   text-align: center;
   padding: 0;
@@ -139,6 +154,12 @@ footer {
   margin-top: 10%;
 
 }
+@media screen and (width: 1440px) {
+  .button{
+  margin-top: -.25%; 
+  }
+}
+
 @media screen and (max-width: 768px) {
   h6, h5{
     font-size:1.5em;
@@ -154,6 +175,7 @@ footer {
     margin-right:auto;
     margin-left:auto;
     font-size: calc(.9vw + .9vh + .9vmin);
+    max-width: 100%;
   }
 
   footer{
@@ -181,6 +203,7 @@ footer {
       position: relative;
       z-index: 10;       
       margin-bottom: 5%;  
+      max-width: 100%;
   }
 
  
