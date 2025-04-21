@@ -59,6 +59,7 @@ video {
   font-family: 'Bodoni Moda';
 }
 .button {
+  z-index: 10;
   border: #BB9BB0 0.5px solid !important;
   box-sizing: border-box;
   display: flex;
@@ -73,6 +74,8 @@ video {
   min-width: 10rem; /* Ensures minimum size on small screens */
   width: 50%; /* Relative width */
   padding: 0; /* Consistent padding */
+  position: relative;
+
 }
 /* .button{
   border: #BB9BB0 .5px solid !important;
@@ -152,6 +155,7 @@ a{
 footer {
   position: fixed;
   margin-top: 10%;
+  z-index: 1;
 
 }
 @media screen and (width: 1440px) {

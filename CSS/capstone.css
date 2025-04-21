@@ -1,0 +1,43 @@
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    padding-bottom: 2em;
+    margin-left: .5em;
+    margin-right: .5em;
+  }
+
+  .video {
+    flex: 1 1 45%;
+    aspect-ratio: 16 / 9;
+  }
+
+  .video iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  .slideshow-container video {
+    width: auto;
+    max-height: 50em;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .slideshow-container img {
+    width: 100%;
+  max-width: 23em;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+  .slideshow-container .prev,
+.slideshow-container .next {
+  color: black;
+}
+  @media (max-width: 768px) {
+    .video {
+      flex: 1 1 100%;
+    }
+  }
