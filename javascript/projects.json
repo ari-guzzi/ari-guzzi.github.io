@@ -5,7 +5,7 @@
         "subtitle": "For my 10-week capstone project, I worked with Will Labeaux and Wolfgang Loudenburg to create HikeBite. <br> <br> HikeBite is an iOS app designed to assist beginner backpackers with meal planning. The app allows users to create trips and populate them with meal ideas, either from a pre-made template (provided by the CU Hiking Club) or by hand-selecting meals from our database. Each meal plan is entirely customizable by the user. The user can also upload their own meals if they create an account! <br> <br> I was the sole app developer on this project. I built the app on SwiftUI with Xcode. I used Firebase to create the backend, utilizing Firebase Storage to store our photos, Firebase Authentication to authorize our users, and the Firestore Database to store meal ideas, templates, and users' information. I used Swift Data for offline use. Will created our two formal documentation videos (youtube links above), designed the UI, and conducted user research. Wolfgang created our website, conducted user testing, and populated our database with meal ideas and templates from his research.",
         "github": "https://github.com/ari-guzzi/HikeBite-appdev",
         "video": "images/proj/capstone/capstone.mp4",
-        "images": ["/capstone/capstone1.png", "capstone/capstone2.png", "capstone/capstone3.png", "capstone/capstone4.png", "capstone/capstone5.png", "capstone/capstone6.png"],
+        "images": ["..capstone/capstone1.PNG", "capstone/capstone2.PNG", "capstone/capstone3.PNG", "capstone/capstone4.PNG", "capstone/capstone5.PNG", "capstone/capstone6.PNG"],
         "button1": "https://hikebitetrail.com/",
         "subdomain": "capstone"
     },
