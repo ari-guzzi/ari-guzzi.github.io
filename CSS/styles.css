@@ -162,7 +162,7 @@ footer {
 }
 @media screen and (width: 1440px) {
   .button{
-  margin-top: -.25%; 
+  margin-top: .25%; 
   }
 }
 
@@ -211,6 +211,4 @@ footer {
       margin-bottom: 5%;  
       max-width: 100%;
   }
-
- 
 }
