@@ -160,11 +160,11 @@ footer {
   z-index: 1;
 
 }
-@media screen and (width: 1440px) {
+/* @media screen and (width: 1440px) {
   .button{
   margin-top: .25%; 
   }
-}
+} */
 
 @media screen and (max-width: 768px) {
   h6, h5{
