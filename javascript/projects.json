@@ -23,7 +23,7 @@
     "github": ["https://github.com/ari-guzzi/ari-guzzi.github.io/blob/main/projects/tinygames/frog-soup.html"],
     "video": "images/proj/frogsoup/frogsoup.mp4",
     "images": ["frogsoup/frogsoup1.png", "frogsoup/frogsoup2.png", "frogsoup/frogsoup3.png"],
-    "button1": "tinygames/frog-soup.html",
+    "button1": "../projects/tinygames/frog-soup.html",
     "subdomain": "game"
 },{
     "name": "Dodge the Cracks",
@@ -31,7 +31,7 @@
     "github": ["https://github.com/ari-guzzi/ari-guzzi.github.io/tree/main/projects/tinygames/cargame"],
     "video": "images/proj/cargame/cargame.mp4",
     "images": ["cargame/cargame1.png"],
-    "button1": "tinygames/cargame/cargame.html",
+    "button1": "../projects/tinygames/cargame/cargame.html",
     "subdomain": "game"
 },{
     "name": "Frustrating Phone Number Enter-er",
