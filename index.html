@@ -27,24 +27,45 @@
     <div id="footer-placeholder"></div>
 <script src="../javascript/loadpage.js"></script>
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        function adjustVideoSource() {
-            var screenWidth = window.innerWidth;
-            var videoPlayer = document.getElementById('videoPlayer');
-            var videoSource = document.getElementById('videoSource');
+    function adjustVideoSource() {
+        const screenWidth = window.innerWidth;
+        const videoPlayer = document.getElementById('videoPlayer');
+        const videoSource = document.getElementById('videoSource');
 
-            if (screenWidth < 768) {
-                videoSource.src = 'images/logo/logo-small.mp4';
-            } else {
-                videoSource.src = 'images/logo/logo.mp4';
-            }
-
-            videoPlayer.load();
+        if (screenWidth < 768) {
+            videoSource.src = 'images/logo/logo-small.mp4';
+        } else {
+            videoSource.src = 'images/logo/logo.mp4';
         }
 
-        adjustVideoSource();
+        videoPlayer.load();
+    }
 
-        window.addEventListener('resize', adjustVideoSource);
+    function resizeVideoIfNeeded() {
+        const video = document.getElementById('videoPlayer');
+        const button = document.getElementById('viewButton');
+        const footer = document.querySelector('footer');
+
+        if (!video || !button || !footer) return;
+
+        const buttonRect = button.getBoundingClientRect();
+        const footerRect = footer.getBoundingClientRect();
+
+        if (buttonRect.bottom > footerRect.top) {
+            video.style.height = "40vh";
+        } else {
+            video.style.height = "60vh";
+        }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        adjustVideoSource();
+        resizeVideoIfNeeded();
+    });
+
+    window.addEventListener('resize', () => {
+        adjustVideoSource();
+        resizeVideoIfNeeded();
     });
 </script>
 
