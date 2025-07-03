@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     const works = [
+      {"link": "finishd.html", "imgSrc": "../images/coverimages/finishdlogo.png", "altText": "finish'd internship", "description": "Redesigning finish'd, Inc.'s UI"},
       {"link": "capstone.html", "imgSrc": "../images/coverimages/capstonelogo.png", "altText": "Capstone Project", "description": "Capstone Project (App Dev)"},
       {"link": "webdev.html", "imgSrc": "../images/coverimages/webdev.png", "altText": "Web Development", "description": "Front-End Web Development"},
       {"link": "appdev.html", "imgSrc": "../images/coverimages/appdev.png", "altText": "App Development", "description": "App Development"},

@@ -143,3 +143,12 @@ a {
 .slideshow-container:hover .next {
     background-color: rgba(255, 255, 255, 0.7); /* White with transparency */
 }
+.slideshow-container video,
+.slideshow-container img {
+    max-height: 500px;  
+    width: auto;
+    height: auto;
+    object-fit: contain; 
+    display: block;
+    margin: 0 auto;
+}

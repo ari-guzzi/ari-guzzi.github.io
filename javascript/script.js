@@ -36,12 +36,16 @@ function parseData(projects) {
             <h5>${project.name}</h5>
             <p>${project.subtitle}</p>
             
-            <a href="${project.github}" target = "blank" onclick="loadPage('${project.github}')">
-                <div class="button2">
-                    <img src="images/logo/github.png" alt="GitHub Logo" class="button-image">
-                    <span>View GitHub Repository!</span>
-                </div>
-            </a>
+           ${project.github ? `
+    <a href="${project.github}" target="_blank" onclick="loadPage('${project.github}')">
+        <div class="button2">
+            <img src="images/logo/github.png" alt="GitHub Logo" class="button-image">
+            <span>View GitHub Repository!</span>
+        </div>
+    </a>
+    <br>
+` : ""}
+
             <br>
              <a href="${project.button1}" target = "blank" onclick="loadPage("${project.button1}")">
                 <div class="button1"><p>View Project!</p></div></a>

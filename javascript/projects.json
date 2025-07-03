@@ -80,7 +80,7 @@
 {
     "name": "Natural Highs App Prototype",
     "subtitle": "One of the projects I have been working on is a prototype app for Natural Highs, a nonprofit organization dedicated to teaching healthy alternatives to substances. I utilized Figma to make the prototype. <br> <br> The app is a social media page for the nonprofit. You create an account where you input your information and demographics. When you sign up, you automatically follow all the main pages (Boulder, Canada, Australia) and all the registered peer mentors from your community. After signing in, the app automatically loads the feed page. From there, you can navigate throughout the app. There is an events page where you can scan a QR code to check in for each event. After checking in, users are asked to fill out a survey with the information needed for Natural Highs to apply for grants. The app has a database holding the demographics of each user along with their answers to surveys.",
-    "github": ["https://github.com/ari-guzzi"],
+    "github": null,
     "video": "images/proj/appdes/appdes.mp4",
     "images": ["appdes/appdes1.png","appdes/appdes2.png","appdes/appdes3.png","appdes/appdes4.png","appdes/appdes5.png"],
     "button1": "https://www.figma.com/proto/CTIZGF8RhZdEq4cYmy7d2B/Natural-Highs?type=design&node-id=2-1793&t=RubuUGjUbmpurM2Q-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A1793&mode=design",
@@ -121,6 +121,15 @@
     "images": ["mealplanner/mealplanner1.png","mealplanner/mealplanner2.png"],
     "button1": "https://hikebitebeta.vercel.app",
     "subdomain": "webdev"
+},
+{
+    "name": "Redesigning finish'd, Inc.'s UI",
+    "subtitle": "As part of a summer internship, I redesigned the finish'd, Inc.'s app's UI. finish'd is a local startup that empoweres older folk to remain independent. My design choices were based on UX research through AARP. I focused on making the UI as user-friendly for older folks as possible. This prototype was created on Figma.",
+    "github": null,
+    "video": "images/proj/finish'd/finishd.mov",
+    "images": ["finish'd/finishd1.png","finish'd/finishd2.png","finish'd/finishd3.png","finish'd/finishd4.png","finish'd/finishd5.png","finish'd/finishd6.png"],
+    "button1": "https://www.finishd.app/",
+    "subdomain": "finishd"
 }
 ]
 }
