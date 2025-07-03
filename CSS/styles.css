@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 
 body{
   display: flex;
@@ -6,7 +6,6 @@ body{
   margin: 0;
   height: 100%;
   overflow: hidden;
-  /* overflow-y: auto; */
 }
 .topnav, footer {
   flex-shrink: 0;
@@ -68,17 +67,16 @@ video {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2em auto; /* Centers the button */
+  margin: 2em auto; 
   background-color: #F1E3E4;
   color: #BB9BB0;
   font-size: calc(1vw + 1vh + 1vmin);
   animation: blinking 2s infinite alternate;
-  max-width: 20vw; /* Limits button size on large screens */
-  min-width: 10rem; /* Ensures minimum size on small screens */
-  width: 50%; /* Relative width */
-  padding: 0; /* Consistent padding */
+  max-width: 20vw; 
+  min-width: 10rem; 
+  width: 50%; 
+  padding: 0; 
   position: relative;
-
 }
 #viewButton p{
   text-align: center;

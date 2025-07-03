@@ -12,7 +12,7 @@
                 
     <link rel="icon" type="image/x-icon" href="images/logo/AG2LightPurple.png">
 </head>
-<body>
+<!-- <body>
     <div class="fade-in-section">
     <main class="color-block">
 
@@ -24,8 +24,22 @@
             <div id = "viewButton" class="button"><p>View Portfolio!</p></div></a>
     </main>
 </div>
+    <div id="footer-placeholder"></div> -->
+    <body>
+  <div class="page-wrapper fade-in-section">
+    <video id="videoPlayer" autoplay loop muted playsinline>
+      <source src="images/logo/logo.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <a href="myWork.html">
+      <div id="viewButton" class="button"><p>View Portfolio!</p></div>
+    </a>
+
     <div id="footer-placeholder"></div>
-<script src="../javascript/loadpage.js"></script>
+  </div>
+
+<!-- <script src="../javascript/loadpage.js"></script> -->
 <script>
     function adjustVideoSource() {
         const screenWidth = window.innerWidth;
