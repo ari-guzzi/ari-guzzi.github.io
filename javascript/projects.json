@@ -127,7 +127,7 @@
     "subtitle": "As part of a summer internship, I redesigned the finish'd, Inc.'s app's UI. finish'd is a local startup that empoweres older folk to remain independent. My design choices were based on UX research through AARP. I focused on making the UI as user-friendly for older folks as possible. This prototype was created on Figma.",
     "github": null,
     "video": "images/proj/finish'd/finishd.mov",
-    "images": ["finish'd/finishd1.png","finish'd/finishd2.png","finish'd/finishd3.png","finish'd/finishd4.png","finish'd/finishd5.png","finish'd/finishd6.png"],
+    "images": ["finish'd/finishd1.PNG","finish'd/finishd2.PNG","finish'd/finishd3.PNG","finish'd/finishd4.PNG","finish'd/finishd5.PNG","finish'd/finishd6.PNG"],
     "button1": "https://www.finishd.app/",
     "subdomain": "finishd"
 }
