@@ -132,7 +132,7 @@
     "subdomain": "finishd"
 },
 {
-    "name": "React.js Quiz Appp",
+    "name": "React.js Quiz App",
     "subtitle": "I built this interactive quiz web app using React.js and Tailwind CSS to create a clean, responsive user interface. Users can select from a variety of quiz categories and filter question types (multiple choice, true/false, free response). The app dynamically displays the selected quiz, tracks user answers, and calculates a score summary at the end with styled feedback. I focused on modular React components, conditional rendering, and accessible mobile-friendly design with smooth horizontal scrolling for cards and responsive layouts.",
     "github": ["https://github.com/ari-guzzi/my-quiz-app"],
     "video": "images/proj/quizapp/reactQuiz.mov",
