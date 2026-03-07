@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot - Ari Guzzi</title>
+    <link rel="stylesheet" href="/CSS/common.css">
+    <link rel="stylesheet" href="/CSS/game.css">
+    <link href='https://fonts.googleapis.com/css?family=Bodoni%20Moda' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="/images/logo/AG2LightPurple.png">
+
+    <script>
+        window.chtlConfig = {
+            chatbotId: "7297914562",
+            display: "page_inline"
+        }
+    </script>
+
+    <style>
+        .chatbot-container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .chatbot-description {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 0 20px;
+        }
+
+        #chtl-inline-bot {
+            width: 100%;
+            height: 600px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Ari Guzzi</h1>
+
+    <div class="topnav">
+        <a href="/" onclick="loadPage('index')"> Home</a>
+        <a href="/myWork.html" onclick="loadPage('myWork')">My Work</a>
+        <a href="/AboutMe.html" onclick="loadPage('AboutMe')">About Me</a>
+    </div>
+
+    <div class="fade-in-section">
+        <h2>AI Chatbot</h2>
+
+        <div class="chatbot-container">
+            <div class="chatbot-description">
+                <p>Chat with my AI assistant! This chatbot can answer questions and help you navigate my portfolio.</p>
+            </div>
+
+            <div id="chtl-inline-bot"></div>
+        </div>
+    </div>
+
+    <div id="footer-placeholder"></div>
+    <script src="/javascript/loadpage.js"></script>
+    <script async data-id="7297914562" data-display="page_inline" id="chtl-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
+</body>
+</html>

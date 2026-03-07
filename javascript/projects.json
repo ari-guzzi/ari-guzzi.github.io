@@ -139,6 +139,15 @@
     "images": ["quizapp/reactquiz1.png","quizapp/reactquiz2.png","quizapp/reactquiz3.png"],
     "button1": "https://my-quiz-app-jet.vercel.app/",
     "subdomain": "webdev"
+},
+{
+    "name": "Social Matching Synergy Tool",
+    "subtitle": "One of the most significant contributions I made during my time at Actualize Earth is designing and developing their Social Matching Tool. I started the process in Figma and iterated through designs with the CEO. Once I was approved, I spearheaded the frontend development. With weekly check-ins to confirm my work aligned with the goals of Actualize, I used Actualize's proprietary JavaScript framework to build this microapp. Their framework provides a component-based architecture with custom view lifecycle management, EJS templating, and jQuery-based DOM manipulation for building hybrid mobile experiences.I learned about best practices with fullstack development and devled deeper into the backend. I participated in peer-programming on the  backend, contributing to API logic and integration between the matching engine and the client interface.",
+    "github": null,
+    "video": "images/proj/actualize/actualize.mp4",
+    "images": ["actualize/actualize1.png","actualize/actualize2.png","actualize/actualize3.png","actualize/actualize4.png","actualize/actualize5.png","actualize/actualize6.png","actualize/actualize7.png","actualize/actualize8.png"],
+    "button1": "https://actualize.earth/",
+    "subdomain": "actualize"
 }
 ]
 }
