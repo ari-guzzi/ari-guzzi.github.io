@@ -105,21 +105,21 @@
     "subdomain": "vrdev"
 },
 {
-    "name": "Chart Generator from Spreadsheet",
-    "subtitle": "I developed this web-app to generate charts using data from uploaded spreadsheets. I used Sveltekit and Node.js to build this chart generator.  Firebase stores user's login credentials and uploaded files. Chart.js converts the spreadsheets to charts.",
-    "github": ["https://github.com/ari-guzzi/advweb/tree/main/project1"],
-    "video": "images/proj/charts/charts.mp4",
-    "images": ["charts/chart1.png","charts/chart2.png","charts/chart3.png"],
-    "button1": "https://advanced-web-project1.web.app/",
-    "subdomain": "webdev"
-},
-{
     "name": "React.js Meal Planner",
     "subtitle": "This React.js web-app allows users to input their meals and ingredients for the week and populate their meal plan with an easy drag and drop feature. I collaborated with Wolfgang Loudenburg to build this app.",
     "github": ["https://github.com/WolfgangLoud/front-end-project-b"],
     "video": "images/proj/mealplanner/mealplanner.mp4",
     "images": ["mealplanner/mealplanner1.png","mealplanner/mealplanner2.png"],
     "button1": "https://hikebitebeta.vercel.app",
+    "subdomain": "webdev"
+},
+{
+    "name": "Chart Generator from Spreadsheet",
+    "subtitle": "I developed this web-app to generate charts using data from uploaded spreadsheets. I used Sveltekit and Node.js to build this chart generator.  Firebase stores user's login credentials and uploaded files. Chart.js converts the spreadsheets to charts.",
+    "github": ["https://github.com/ari-guzzi/advweb/tree/main/project1"],
+    "video": "images/proj/charts/charts.mp4",
+    "images": ["charts/chart1.png","charts/chart2.png","charts/chart3.png"],
+    "button1": "https://advanced-web-project1.web.app/",
     "subdomain": "webdev"
 },
 {
