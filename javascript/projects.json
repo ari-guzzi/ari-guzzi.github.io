@@ -142,11 +142,11 @@
 },
 {
     "name": "Social Matching Synergy Tool",
-    "subtitle": "One of the most significant contributions I made during my time at Actualize Earth is designing and developing their Synergy App, an AI-assisted social matching platform that connects people within their communities for friendship, romantic relationships, and coworking opportunities. The system analyzes user responses and behavioral data to surface more compatible matches than traditional preference-based filtering. I started the process in Figma and iterated through designs with the CEO. I then spearheaded the frontend development. I used Actualize's proprietary JavaScript framework to build this microapp. I worked with EJS templating and jQuery-based DOM manipulation for building hybrid mobile experiences. I learned best practices of fullstack development. I participated in peer-programming on the  backend, contributing to API logic and integration between the matching engine and the client interface.",
+    "subtitle": "One of the most significant contributions I made during my time at Actualize Earth is designing and developing their Synergy App, an AI-assisted social matching platform that connects people within their communities for friendship, romantic relationships, and coworking opportunities. The system analyzes user responses and behavioral data to surface more compatible matches than traditional preference-based filtering. I started the process in Figma and iterated through designs with the CEO. I then spearheaded the frontend development. I used Actualize's custom JavaScript framework to build this microapp. I worked with EJS templating and jQuery-based DOM manipulation for building hybrid mobile experiences. I learned best practices of fullstack development. I participated in peer-programming on the  backend, contributing to API logic and integration between the matching engine and the client interface.",
     "github": null,
     "video": "images/proj/actualize/actualize.mp4",
     "images": ["actualize/actualize1.PNG","actualize/actualize2.PNG","actualize/actualize3.PNG","actualize/actualize4.PNG","actualize/actualize5.PNG","actualize/actualize6.PNG","actualize/actualize7.PNG","actualize/actualize8.PNG"],
-    "button1": "https://actualize.earth/",
+    "button1": "https://actualize.earth/pro-access/synergy-engine",
     "subdomain": "actualize"
 }
 ]
